@@ -10,6 +10,7 @@
 	<html>
 		<head>
 			<link type="text/css" rel="stylesheet" href="../template/common.css" />
+			<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 			<xsl:if test="$head">
 				<xsl:copy-of select="$head" />
 			</xsl:if>
