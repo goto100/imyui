@@ -1,0 +1,22 @@
+@import url("../../basic.css");
+@import url("../bookstore.css");
+
+@import url("../../common.css");
+@import url("../../bookstore.css");
+
+#content {
+	width: 920px;
+}
+#content .login .button {
+	float: none;
+	margin-left: 150px;
+}
+#secContent {
+	width: 300px;
+}
+#secContent h2 {
+	font-size: 12pt;
+}
+ol.tab {
+	float: left;
+}

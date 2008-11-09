@@ -1,0 +1,17 @@
+@import url("../../basic.css");
+@import url("../bookstore.css");
+
+@import url("../../common.css");
+@import url("../../bookstore.css");
+
+ol.tab {
+	float: left;
+}
+
+div.cart {
+	text-align: center;
+	background: #9cf url(../../../images/res/bookstore/cart/cart_bg.gif)  no-repeat center bottom;
+}
+div.cart h2 {
+	background: url(../../../images/res/bookstore/order-cart_title.gif) no-repeat center top;
+}

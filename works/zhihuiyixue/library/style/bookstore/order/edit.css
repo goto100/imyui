@@ -1,0 +1,13 @@
+@import url("../../basic.css");
+@import url("../bookstore.css");
+
+@import url("../../common.css");
+@import url("../../bookstore.css");
+
+#content {
+	width: 920px;
+}
+div.cart {
+	text-align: center;
+	background: #9cf url(../../../images/res/bookstore/cart/cart_bg.gif)  no-repeat center bottom;
+}

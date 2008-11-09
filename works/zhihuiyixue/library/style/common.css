@@ -1,0 +1,792 @@
+@charset "utf-8";
+/**
+* @version	0.1a
+* @author	goto100@gmail.com
+*/
+
+
+/**
+* Resets
+*/
+
+
+#main:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/**
+* Layouts
+*/
+
+
+
+/**
+* Widgets
+*/
+
+
+
+/**
+* Modules
+*/
+
+/* Global */
+.note {
+	color: #f90;
+	font-size: 16pt;
+	margin: 0 1ex;
+}
+.currencyYuan {
+	padding-left:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background:url(../images/res/currencyYuan.gif) no-repeat left center;
+}
+
+/**
+* Boxes
+*/
+div.accordion {
+	background-color: #fff;
+	margin-bottom:10px;
+}
+div.content {
+	padding: 14px;
+	margin-bottom:10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+div.main {
+	padding: 14px;
+	margin-bottom:10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+div.content h3 {
+	margin-bottom: 0.5em;
+}
+div.panel {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	background-color: #fff;
+}
+div.panel h2 {
+	margin: 0;
+	padding: 8px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+div.panel li {
+	clear: both;
+	padding: 3px 0 2px 0;
+}
+div.panel h3 {
+	font-size: 9pt;
+	font-weight: normal;
+}
+div.panel ul,
+div.panel ol,
+div.panel p {
+	margin: 0 10px 10px 10px;
+}
+div.panel ol.list li {
+	width: 170px;
+	height: 1.2em;
+	overflow: hidden;
+	font-size: 9pt;
+	font-weight: normal;
+}
+*.box {
+	clear:both;
+	zoom: 1;
+}
+*.box:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+/* List Table */
+table.list {
+	clear:both;
+	margin-bottom:10px;
+	width:100%;
+	font-size:10.5pt;
+	border-collapse:collapse;
+}
+table.list thead, table.list tfoot {
+	background-color:#CAE8EA;
+}
+table.list thead th,
+table.list tfoot td {
+	padding:5px;
+	font-size:9pt;
+	color:#4f6b72;
+	text-align:center;
+	font-weight:normal;
+	letter-spacing:6px;
+	text-transform:uppercase;
+	border-top:1px solid #C1DAD7;
+	border-right:1px solid #C1DAD7;
+	border-bottom:1px solid #C1DAD7;
+}
+table.list tfoot td {
+	text-align:left;
+}
+table.list tbody tr {
+	line-height:1.6em;
+}
+table.list tbody tr.even {
+	background-color:#F3F3F3;
+}
+table.list tbody th {
+	text-align:left;
+}
+table.list tbody th,
+table.list tbody td {
+	padding:0 8px;
+	overflow:hidden;
+	border-right:1px solid #C1DAD7;
+    border-bottom:1px solid #C1DAD7;
+}
+table.list tbody td.currencyYuan {
+	padding-left: 14px;
+}
+table.list tbody th {
+	font-weight:normal;
+	background-color:#F6F6F6;
+}
+table.list tbody tr.even th {
+	background-color:#F0F0F0;
+}
+table.list tbody th a {
+	display:block;
+	color:#666666;
+}
+table.list tbody th a:hover {
+	color:#000000;
+}
+table.list colgroup {
+	border-right:2px solid #C1DAD7;
+}
+table.list col {
+	border-right:1px solid #C1DAD7;
+}
+table.list colgroup.ctrl col {
+	width:30px;
+}
+table.list colgroup.statistics col {
+	width:60px;
+}
+table.list colgroup.content col.time {
+	width:100px;
+}
+table.list colgroup.content col.user {
+	width:100px;
+}
+table.list colgroup.operations col {
+	width:60px;
+}
+table.list td.state {
+	text-align:center;
+}
+table.list a.delete {
+	float:left;
+	width:16px;
+	height:16px;
+	text-indent:-9999px;
+	background:url(../../images/user/delete.gif) no-repeat left top;
+	outline:none;
+}
+
+
+/* Content Form */
+form.content {
+	font-size: 10.5pt;
+	margin-bottom: 10px;
+}
+form.content h3 {
+	font-size: 10.5pt;
+	margin: 1em 0 1em 0;
+}
+form.content textarea {
+	font-size: 12pt;
+}
+form.content fieldset {
+	padding: 0 5px;
+	margin-bottom: 10px;
+}
+form.content li {
+	margin-bottom: 5px;
+}
+form.content input,
+form.content textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+form.content *.required {
+	padding: 3px 0 0 3px;
+	background: #fcfcfc url(../../images/user/required.png) no-repeat left top;
+	border: 1px solid #c66;
+}
+form.content input.error {
+	border: 1px solid #f00;
+}
+form.content p.help {
+	display: inline;
+	margin-left: 10px;
+	font-size: 9pt;
+}
+form.content p.message,
+form.content span.message {
+	display: block;
+	margin: 0.5em 0 0 150px;
+	font-size: 9pt;
+	color: #900;
+}
+form.content div.input,
+form.content div.secret,
+form.content div.textarea,
+form.content dl.select1 {
+	margin-bottom: 5px;
+}	
+form.content div.input label,
+form.content div.secret label,
+form.content div.textarea label,
+form.content dl.select1 dt.label {
+	clear: both;
+	float: left;
+	width: 142px;
+	margin-right: 8px;
+	text-align: right;
+}
+form.content dl.select1 dd.item {
+	margin-left: 0;
+	margin-bottom: 0.5em;
+	padding-left: 150px;
+}
+form.content dl.select1 dd.item input {
+	margin-right: 5px;
+}
+
+/* Login Form */
+form.login .username {
+	margin-bottom: 10px;
+}
+form.login .password {
+	margin-bottom: 10px;
+}
+form.login .get-password {
+	display: block;
+}
+form.login .login {
+	float: right;
+	padding: 2px 10px;
+	background-color: #eee;
+	border-width: 1px;
+	border-style: solid;
+	border-top-color: #999;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #999;
+}
+form.login .login:active {
+	border-top-color: #000;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #000;
+}
+form.login .required {
+	border-color: #ccc;
+}
+
+
+/* Register Form */
+form.register div.input label,
+form.register div.secret label {
+	width: 80px;
+}
+form.register .register {
+	float: right;
+	padding: 2px 10px;
+	background-color: #eee;
+	border-top: 1px solid #999;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #999;
+}
+form.register .register:active {
+	border-top-color: #000;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #000;
+}
+form.register .required {
+	border-color: #ccc;
+}
+
+/* Bread Crumb */
+ul.breadcrumb {
+	height: 20px;
+	margin: 5px 0 15px 0;
+}
+ul.breadcrumb li {
+	float: left;
+	margin-left: 5px;
+	padding-left: 16px;
+	background: url(../images/user/crumb.gif) no-repeat left center;
+}
+ul.breadcrumb li.main {
+	margin-left: -15px;
+	background: none;
+}
+
+/* Nav */
+dl.nav dd a {
+	padding-left: 20px;
+	background: url(../images/user/nav-item.gif) no-repeat left top;
+}
+dl.nav dd a:hover {
+	padding-left: 20px;
+	background: url(../images/user/nav-item-hover.gif) no-repeat left top;
+}
+
+/* Sort UL */
+ul.sort li {
+	background-color: #fff;
+}
+
+/* Fliter UL */
+ul.fliter {
+	height: 24px;
+	margin-bottom: 5px;
+}
+ul.fliter li {
+	float: left;
+}
+
+
+/* Pagebar */
+div.pagebar {
+	font-size:9pt;
+}
+div.pagebar p {
+	display:inline;
+}
+div.pagebar ul {
+	display:inline;
+	list-style-type:none;
+}
+div.pagebar li {
+	display:inline;
+	float: left;
+	text-align: center;
+	margin: 0 2px;
+	border:1px solid #ccc;
+}
+div.pagebar li.selected {
+	font-weight:bold;
+	border:none;
+}
+div.pagebar li a {
+	display: block;
+	padding: 2px 5px;
+	background-color: #fff;
+}
+div.pagebar li a:hover {
+	color: #000;
+	background-color: #ddd;
+}
+div.pagebar .input {
+	display:inline;
+}
+
+/* div.toolbar */
+div.toolbar {
+	font-size: 9pt;
+}
+div.toolbar h6 {
+	float: left;
+	font-size: 12px;
+}
+div.toolbar p {
+	display: inline;
+}
+div.toolbar ul {
+	display: inline;
+	list-style-type :none;
+}
+div.toolbar li.button {
+	float: left;
+	display: inline;
+}
+div.toolbar li.selected {
+	font-weight: bold;
+	border: none;
+}
+div.toolbar input.input {
+	display: inline;
+}
+.fliter .selected {
+	color: #000;
+	background-color:#aabc6a;
+}
+
+/* Tab */
+ul.tab,
+ol.tab {
+	float: right;
+	margin-bottom: -1px;
+}
+ul.tab li,
+ol.tab li {
+	position: relative;
+	float: left;
+	margin: 0 4px;
+	padding: 4px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+ul.tab li a,
+ol.tab li a {
+	display: block;
+	margin: -4px;
+	padding: 4px;
+}
+ul.tab .selected,
+ol.tab .selected {
+	padding: 4px;
+	border-bottom: 1px solid #fff;
+}
+
+/* Steps OL */
+ol.steps .step {
+	padding-left: 35px;
+	background-color: #fff;
+	background-image: url(../images/res/steps_gray.gif);
+	background-repeat: no-repeat;
+}
+ol.steps a.step:hover {
+	background-image: url(../images/res/steps.gif);
+}
+ol.steps .selected {
+	background-image: url(../images/res/steps.gif);
+}
+ol.steps .first {
+	background-position: 2px 5px;
+}
+ol.steps .second {
+	background-position: 2px -25px;
+}
+ol.steps .third {
+	background-position: 2px -55px;
+}
+ol.steps .fourth {
+	background-position: 2px -85px;
+}
+ol.steps .fifth {
+	background-position: 2px -115px;
+}
+ol.steps .sixth {
+	background-position: 2px -145px;
+}
+ol.steps .seventh {
+	background-position: 2px -175px;
+}
+ol.steps .eighth {
+	background-position: 2px -205px;
+}
+
+/* Rank OL */
+ol.rank li {
+	position: relative;
+}
+ol.rank *.index {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 18px;
+	height: 20px;
+	padding-left: 2px;
+	color: #fff;
+	background: url(../images/res/rankIndex.gif) no-repeat left -60px;
+}
+
+ol.rank li.rank1 *.index {
+	background-position: left top;
+}
+ol.rank li.rank2 *.index {
+	background-position: left -20px;
+}
+ol.rank li.rank3 *.index {
+	background-position: left -40px;
+}
+
+/* Button */
+.toolbar li.button,
+form button,
+a.button,
+input.button {
+	margin: 1px;
+	padding: 0 2px;
+	line-height: 20px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #ccc;
+	background-color: #f9f9f9;
+	outline: none;
+}
+a.button:link,
+a.button:visited {
+	color: #000;
+}
+button:active,
+a.button:active,
+input.button:active {
+	border-top: 1px solid #666;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #666;
+}
+
+/* Next Step Button */
+form.content button.nextstep,
+a.nextstep,
+input.nextstep {
+	float: right;
+	width: 106px;
+	height: 33px;
+	text-indent: -9999px;
+	background: url(../images/res/movesteps.gif) no-repeat center -47px;
+	border: none;
+}
+a.nextstep:active {
+	border: none;
+}
+form.content button.prevstep,
+a.prevstep,
+input.prevstep {
+	float: left;
+	width: 106px;
+	height: 33px;
+	text-indent: -9999px;
+	background: url(../images/res/movesteps.gif) no-repeat center top;
+	border: none;
+}
+a.prevstep:active {
+	border: none;
+}
+
+/* Map DL */
+dl.map {
+	font-size:10.5pt;
+}
+dl.map dt {
+	margin: 0;
+	margin-bottom: 5px;
+	float: left;
+	clear:left;
+	width: 200px;
+	text-align: right;
+}
+dl.map dd {
+	margin:0 0 5px 210px;
+}
+
+/* Set UL*/
+ul.map li {
+	height:20px;
+}
+ul.map li h3,
+ul.map li h4 {
+	float:left;
+	width:80px;
+	margin-right:10px;
+	font-size:10.5pt;
+	font-weight:normal;
+	text-align:right;
+}
+ul.map li h4 {
+	font-size:9pt;
+}
+ul.map li p {
+	display:inline;
+}
+
+/* Conversation DL */
+dl.dialog dt.question {
+	margin:0 0 10px 0;
+	text-indent:2em;
+	color:#666666;
+	background:url(../../images/user/question.gif) no-repeat left top;
+}
+dl.dialog dd {
+	margin:0 0 10px 0;
+	text-indent:2em;
+	border-bottom:1px dashed #999999;
+	background:url(../../images/user/noAnswer.gif) no-repeat left top;
+}
+dl.dialog dd.answer {
+	color:#990000;
+	background:url(../../images/user/answer.gif) no-repeat left top;
+}
+
+/* Article */
+.article {
+	font-size:10.9pt;
+	padding: 10px;
+	color: #000;
+	background-color: #fff;
+}
+.article blockquote,
+blockquote.article {
+	padding:5px 5px 5px 20px;
+	background:url(../../images/user/quote.gif) no-repeat -5px -5px;
+	border:1px dashed #CCCCCC;
+}
+.article ul {
+	margin:10px;
+	list-style-type:circle;
+}
+.article p {
+	text-indent: 2em;
+	margin-bottom:1ex;
+}
+.article dl {
+	margin-left: 2em;
+}
+.article dl dd,
+.article dl dt {
+	margin-bottom: 1ex;
+}
+.article ul li {
+	list-style-position:inside;
+	list-style-type:circle;
+}
+.article ul li {
+	margin-left: 2em;
+	line-height: 1.6em;
+}
+.article dl dd {
+	margin-left: 2em;
+}
+.article h2 {
+	font-size: 12pt;
+}
+.article h3 {
+	margin: 1ex 0;
+	font-size: 10.5pt
+}
+
+/* Gallery UL */
+ul.gallery li {
+	float: left;
+}
+
+/* Figure */
+div.figure {
+	float: left;
+}
+div.figure p.legend {
+}
+
+/* Folder UL */
+ul.accordion {
+	border: 1px solid #000;
+}
+ul.accordion li.accordionitem {
+	clear: both;
+}
+ul.accordion li.accordionitem h3.accordionlabel {
+	overflow: hidden;
+	text-align: center;
+	font-size: 14px;
+	background: url(../images/res/border-title.gif) no-repeat center 12px;
+}
+ul.accordion div.accordioncontent {
+	height: 130px;
+	margin: -8px 15px 0 15px;
+	padding: 20px 10px 10px 40px;
+	background: url(../images/res/border.gif) no-repeat center top;
+}
+
+
+/* Summary */
+.summary {
+	color: #666;
+}
+
+/* Note */
+div.note,
+p.note {
+	margin:0 0 10px 0;
+	font-size:10.5pt;
+	background-color: #fff;
+}
+p.note {
+	background: url(../images/res/note-title.gif) no-repeat 5px center;
+	text-indent: 2em;
+}
+div.note {
+	padding-bottom: 5px;
+	border:1px solid #FF9900;
+}
+div.note button.close {
+	float: right;
+	width: 12px;
+	height: 12px;
+	text-indent: -9999px;
+	background: #cae8ea url(../../library/images/res/close-button.png) no-repeat left top;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid #f90;
+	border-left: 1px solid #f90;
+}
+div.note h2,
+div.note h3 {
+	padding: 5px 5px 5px 25px;
+	margin:2px 2px 10px 2px;
+	background: url(../images/res/note-title.gif) no-repeat 5px center;
+}
+div.note p {
+	margin-left: 10px;
+	line-height: 1.4em;
+}
+div.note ul.menu {
+	font-size:9pt;
+}
+
+/* Tip */
+div.tip,
+p.tip {
+}
+p.tip {
+	font-size: 9pt;
+	line-height: 20px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	text-indent: 2em;
+	background: url(../images/res/tip.gif) no-repeat left top;
+}
+
+/* Success */
+div.success {
+	padding:10px 10px 10px 60px;
+	background: #fff url(../images/user/success-note.gif) no-repeat left top;
+}
+div.success h2 {
+	border:none;
+}
+
+/* Information P */
+p.information {
+	text-align:right;
+}

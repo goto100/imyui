@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>修改个人资料 - 智慧医学网 zhihuiyixue.com</title>
+<link type="text/css" rel="stylesheet" href="../../library/style/basic.css" />
+<link type="text/css" rel="stylesheet" href="../../library/style/user/center.css" />
+<script type="text/javascript" src="../../library/scripts/lib/prototype.js"></script>
+<script type="text/javascript" src="../../library/scripts/lib/scriptaculous.js"></script>
+<script type="text/javascript" src="../../library/scripts/user/center.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="logo"><a href="../../"><img src="../../library/images/logo_0.gif" alt="智慧医学网 －国内优秀综合医学网站 zhihuiyixue.com" /></a></div>
+	<div id="headerContent">
+		<div id="member"><a href="../../user/center/">会员中心</a> - <span id="name" class="star0">goto100</span></div>
+		<div id="headerRight">
+			<ul id="quickLink">
+				<li><a href="../../help/">帮助中心</a></li>
+				<li><a href="javascript:void(0);" onclick="window.external.AddFavorite('http://www.zhihuiyixue.com/', '智慧医学网 －国内优秀综合医学网站 zhihuiyixue.com')">加入收藏</a></li>
+				<li><a href="javascript:void(0);" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zhihuiyixue.com/');">设为首页</a></li>
+			</ul>
+			<form id="searchForm" method="get" action="/bookstore/search.html" onsubmit="return bookstoreSearchCheck()">
+				<p>
+					<input name="key" type="text" id="searchText" maxlength="17" />
+					<input type="image" name="searchButton" id="searchButton" src="../../library/images/header_bt.gif" alt="搜索" />
+				</p>
+			</form>
+		</div>
+	</div>
+	<ul id="mainNav">
+		<li><a href="../../" class="default">首页</a></li>
+		<li><a href="../../news/" class="news">医学信息</a></li>
+		<li><a href="../../bookstore/" class="bookstore">医学书店</a></li>
+		<li><a href="../../exam/" class="exam">考试培训</a></li>
+		<li><a href="../../video/" class="video">视频教学</a></li>
+		<li><a href="../../guestbook/" class="iask">学习答疑</a></li>
+		<li><a href="../../download/" class="download">下载专区</a></li>
+		<li><a href="javascript:void(0);" onclick="window.open('/bbs/')" class="bbs">医博园论坛</a></li>
+	</ul>
+</div>
+<div id="main">
+	<!--http://www.zhihuiyixue.com-->
+	<div id="sidebar">
+		<div id="user-profile">
+			<h3>欢迎您 goto100</h3>
+			<a href="../../bookstore/order/order_5.html" class="haveMessage alert">短消息(1)</a> | <a href="../../user/loginout.html">登出</a> </div>
+		<div id="subNav">
+			<h2><a href="../../user/center/">首页</a></h2>
+			<dl class="nav">
+				<dt id="subNav-user">个人信息</dt>
+				<dd><a href="../../user/center/info.html">查看个人资料</a></dd>
+				<dd><a href="../../user/center/profile.html">修改个人资料</a></dd>
+				<dd><a href="../../user/center/password.html">修改邮箱或密码</a></dd>
+				<dt id="subNav-shop">购物</dt>
+				<dd><a href="../../user/center/orders.html">我的订单</a></dd>
+				<dd><a href="../../user/center/boughts.html">我购买过的书</a></dd>
+				<dt id="subNav-favorite">收藏</dt>
+				<dd><a href="../../user/center/books.html">我收藏的书</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">我收藏的帖子</a></dd>
+				<dt id="subNav-article">文章</dt>
+				<dd><a href="../../user/center/comments.html">我的书评</a></dd>
+				<dd><a href="../../user/center/questions.html">我的问题</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">我的论坛帖子</a></dd>
+				<dt id="subNav-recommend">医学网向您推荐</dt>
+				<dd><a href="../../bookstore/order/order_5.html">期书早知道</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">最新问题</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">最新帖子</a></dd>
+			</dl>
+		</div>
+	</div>
+	<div id="content">
+		<ul class="crumb">
+			<li class="main"><a href=".">会员中心</a></li>
+			<li>修改个人资料</li>
+		</ul>
+		<p id="alert" class="note">信息更新成功!</p>
+		<h1>修改您的帐户资料</h1>
+		<form id="profile-form" method="post" action="/user/center/profile.html" class="content" enctype="application/x-www-form-urlencoded">
+			<input type="hidden" value="userId" />
+			<ul>
+				<li>
+					<label for="profile-form:user-phone">联系电话:</label>
+					<input id="profile-form:user-phone" type="text" name="profile-form:user-phone" value="13800138000" />
+				</li>
+				<li>
+					<label for="profile-form:user-qq">QQ:</label>
+					<input id="profile-form:user-qq" type="text" name="profile-form:user-qq" value="88888888" />
+				</li>
+				<li>
+					<label for="profile-form:user-uc">UC:</label>
+					<input id="profile-form:user-uc" type="text" name="profile-form:user-uc" value="88888888" />
+				</li>
+				<li>
+					<label for="profile-form:user-msn">MSN:</label>
+					<input id="profile-form:user-msn" type="text" name="profile-form:user-msn" value="hotmail@hotmail.com" />
+				</li>
+				<li>
+					<label for="profile-form:user-birthday">生日:</label>
+					<input id="profile-form:user-birthday" type="text" name="profile-form:user-birthday" value="1985-01-01" />
+				</li>
+				<li>
+					<label for="profile-form:user-occupation">职业:</label>
+					<input id="profile-form:user-occupation" type="text" name="profile-form:user-occupation" value="&#23398;&#29983;" />
+				</li>
+				<li>
+					<label for="profile-form:user-degree">最高学历:</label>
+					<input id="profile-form:user-degree" type="text" name="profile-form:user-degree" value="&#22823;&#26412;" />
+				</li>
+				<li>
+					<label for="profile-form:user-institution">毕业院校:</label>
+					<input id="profile-form:user-institution" type="text" name="profile-form:user-institution" value="&#21271;&#20140;&#22823;&#23398;" />
+				</li>
+				<li>
+					<label for="profile-form:user-signature">个人签名:</label>
+					<textarea id="profile-form:user-signature" name="profile-form:user-signature" cols="40">&#31614;&#21517;</textarea>
+				</li>
+				<li>
+					<label for="profile-form:user-reciver">收货人姓名:</label>
+					<input id="profile-form:user-reciver" type="text" name="profile-form:user-reciver" value="&#23385;&#24735;&#31354;" />
+				</li>
+				<li>
+					<label for="profile-form:user-address">现用地址:</label>
+					<input id="profile-form:user-address" type="text" name="profile-form:user-address" value="&#22825;&#24237;" />
+				</li>
+				<li class="operation">
+					<input type="submit" name="profile-form:_id0" value="&#30830;&#23450;&#20462;&#25913;" />
+					<input value="重新填写" type="reset" />
+				</li>
+			</ul>
+			<input type="hidden" name="com.sun.faces.VIEW" value="rO0ABXNyACBjb20uc3VuLmZhY2VzLnV0aWwuVHJlZVN0cnVjdHVyZRRmG0QclWAgAgAETAAIY2hpbGRyZW50ABVMamF2YS91dGlsL0FycmF5TGlzdDtMAAljbGFzc05hbWV0ABJMamF2YS9sYW5nL1N0cmluZztMAAZmYWNldHN0ABNMamF2YS91dGlsL0hhc2hNYXA7TAACaWRxAH4AAnhwc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcQB+AABzcQB+AAUAAAAMdwQAAAAQc3EAfgAAcHQAKGphdmF4LmZhY2VzLmNvbXBvbmVudC5odG1sLkh0bWxJbnB1dFRleHRwdAAKdXNlci1waG9uZXNxAH4AAHBxAH4ACnB0AAd1c2VyLXFxc3EAfgAAcHEAfgAKcHQAB3VzZXItdWNzcQB+AABwcQB+AApwdAAIdXNlci1tc25zcQB+AABwcQB+AApwdAANdXNlci1iaXJ0aGRheXNxAH4AAHBxAH4ACnB0AA91c2VyLW9jY3VwYXRpb25zcQB+AABwcQB+AApwdAALdXNlci1kZWdyZWVzcQB+AABwcQB+AApwdAAQdXNlci1pbnN0aXR1dGlvbnNxAH4AAHB0ACxqYXZheC5mYWNlcy5jb21wb25lbnQuaHRtbC5IdG1sSW5wdXRUZXh0YXJlYXB0AA51c2VyLXNpZ25hdHVyZXNxAH4AAHBxAH4ACnB0AAx1c2VyLXJlY2l2ZXJzcQB+AABwcQB+AApwdAAMdXNlci1hZGRyZXNzc3EAfgAAcHQALGphdmF4LmZhY2VzLmNvbXBvbmVudC5odG1sLkh0bWxDb21tYW5kQnV0dG9ucHQABF9pZDB4dAAjamF2YXguZmFjZXMuY29tcG9uZW50Lmh0bWwuSHRtbEZvcm1wdAAMcHJvZmlsZS1mb3JteHQAIGphdmF4LmZhY2VzLmNvbXBvbmVudC5VSVZpZXdSb290cHB1cgATW0xqYXZhLmxhbmcuT2JqZWN0O5DOWJ8QcylsAgAAeHAAAAACdXEAfgAnAAAABHVxAH4AJwAAAAhzcgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAXQAJGphdmF4LmZhY2VzLndlYmFwcC5DVVJSRU5UX1ZJRVdfUk9PVHEAfgAteHBwcHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAFzcQB+AC4AcHB0AApIVE1MX0JBU0lDdAAYL3VzZXIvY2VudGVyL3Byb2ZpbGUuanNwc3IAEGphdmEudXRpbC5Mb2NhbGV++BFgnDD57AMABEkACGhhc2hjb2RlTAAHY291bnRyeXEAfgACTAAIbGFuZ3VhZ2VxAH4AAkwAB3ZhcmlhbnRxAH4AAnhw/////3QAAkNOdAACemh0AAB4dXEAfgAnAAAAAXVxAH4AJwAAAAJ1cQB+ACcAAAAWdXEAfgAnAAAACHNxAH4AKz9AAAAAAAAMdwgAAAAQAAAAAXQAIGphdmF4LmZhY2VzLndlYmFwcC5DT01QT05FTlRfSURTc3EAfgAFAAAADHcEAAAAEHEAfgALcQB+AA1xAH4AD3EAfgARcQB+ABNxAH4AFXEAfgAXcQB+ABlxAH4AHHEAfgAecQB+ACBxAH4AI3h4cHQADHByb2ZpbGUtZm9ybXEAfgAlcQB+AC9xAH4AMHQAEGphdmF4LmZhY2VzLkZvcm1wcHBwdAAhYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkcHBwcHBwcHBwcHBwcHB0AAdjb250ZW50cHB1cQB+ACcAAAAMdXEAfgAnAAAAAnVxAH4AJwAAAB91cQB+ACcAAAAKdXEAfgAnAAAAA3VxAH4AJwAAAAhzcQB+ACs/QAAAAAAADHcIAAAAEAAAAAB4dXEAfgAnAAAAAnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAV2YWx1ZXVxAH4AJwAAAAFzcgAmamF2YXguZmFjZXMuY29tcG9uZW50LlN0YXRlSG9sZGVyU2F2ZXJZyrM9k5zNTQIAAkwACWNsYXNzTmFtZXEAfgACTAAKc2F2ZWRTdGF0ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwdAAhY29tLnN1bi5mYWNlcy5lbC5WYWx1ZUJpbmRpbmdJbXBsdAAXdXNlckJlYW4udXNlci50ZWxlcGhvbmV0ABdwcm9maWxlLWZvcm06dXNlci1waG9uZXEA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" />
+			<input type="hidden" name="profile-form" value="profile-form" />
+		</form>
+	</div>
+</div>
+<div id="footer">
+<div id="copyright">
+	<div id="copyrightLeft"><a href="../../about/about.html">公司介绍</a> | <a href="../../about/contact.html">联系我们</a> | <a href="../../about/hr.html">诚聘英才</a> | <a href="../../bookstore/order/order_5.html">网站地图</a></div>
+	<div id="copyrightRight">Copyright &copy; 2007 - 2008 智慧医学网 <a href="http://www.zhihuiyixue.com/">zhihuiyixue.com</a>,<a href="http://www.skin-care-experts.com" title="" style="color:#333333; cursor:text; text-decoration:none;" onmouseover="window.status='';return true;" onMouseOut="window.status='';return true;">Skin</a> All Rights Reserved. - <a href="javascript:void(0);" onclick="window.open('http://www.miibeian.gov.cn/')">京ICP备06048060号</a></div>
+	<div class="clear"></div>
+</div>
+<div id="script">
+	
+	
+</div>
+</body>
+</html>
