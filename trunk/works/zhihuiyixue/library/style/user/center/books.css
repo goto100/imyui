@@ -1,0 +1,8 @@
+.content .buy {
+	_display:inline;
+	float:right;
+	padding:10px;
+	margin-right:60px;
+	border:1px dashed #CCCCCC;
+	text-align:center;
+}

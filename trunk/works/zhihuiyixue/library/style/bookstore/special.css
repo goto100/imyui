@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+   author:    hong
+   email:     huanghong@hotmail.com
+   homepage:  design-hong.com       */
+
+/* search */
+.specialSearch h2 {
+  background-image: url(../../images/store_searchsign.gif) !important;
+}
+.specialSearch li {
+  padding: 3px 0;
+  border-bottom: 1px dashed #ccc;
+}
+#specialSearchText {
+  padding: 2px;
+}
+.specialSearch label {
+  margin-right: 10px;
+}
+#comments-special-books .commentList a {
+  line-height: 1.8em !important;
+  color: #666 !important;
+  text-decoration: none;
+  border-bottom: 1px dashed #ccc;
+}
+#comments-special-books .commentList a:hover {
+  border-bottom: 1px solid #ccc;
+}
+.special h2 {
+  background-image: url(../../images/store_navsign_5.gif) !important;
+}
+.special .topImage img {
+  border: 2px solid #f2f2f2 !important;
+}
+#content h2 {
+  background-image: url(../../images/store_searchsign_2.gif);
+}
+.sort li {
+  height: 10px !important;
+  margin: 0 !important;
+  margin-left: 2px !important;
+  border-bottom: 1px solid #fff !important;
+}
+.sort li a {
+  color: #666 !important;
+}
+.book #list {
+  margin-right: 20px !important;
+}
+.book h3 a {
+  border-bottom: 2px solid #dde4c3;
+  text-decoration: none !important;
+}
+.book h3 a:hover {
+  border-bottom: 2px solid #aabc6a;
+}
+.pagebar li a {
+  line-height: 1.2em;
+  color: #666 !important;
+}

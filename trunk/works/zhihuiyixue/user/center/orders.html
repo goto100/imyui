@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>您的订单 - 智慧医学网 zhihuiyixue.com</title>
+<link type="text/css" rel="stylesheet" href="../../library/style/basic.css" />
+<link type="text/css" rel="stylesheet" href="../../library/style/user/center.css" />
+<script src="../../library/scripts/basic.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+	<div id="logo"><a href="../../"><img src="../../library/images/logo_0.gif" alt="智慧医学网 －国内优秀综合医学网站 zhihuiyixue.com" /></a></div>
+	<div id="headerContent">
+		<div id="member"><a href="../../user/center/">会员中心</a> - <span id="name" class="star0">goto100</span></div>
+		<div id="headerRight">
+			<ul id="quickLink">
+				<li><a href="../../help/">帮助中心</a></li>
+				<li><a href="javascript:void(0);" onclick="window.external.AddFavorite('http://www.zhihuiyixue.com/', '智慧医学网 －国内优秀综合医学网站 zhihuiyixue.com')">加入收藏</a></li>
+				<li><a href="javascript:void(0);" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zhihuiyixue.com/');">设为首页</a></li>
+			</ul>
+			<form id="searchForm" method="get" action="/bookstore/search.html" onsubmit="return bookstoreSearchCheck()">
+				<p>
+					<input name="key" type="text" id="searchText" maxlength="17" />
+					<input type="image" name="searchButton" id="searchButton" src="../../library/images/header_bt.gif" alt="搜索" />
+				</p>
+			</form>
+		</div>
+	</div>
+	<ul id="mainNav">
+		<li><a href="../../" class="default">首页</a></li>
+		<li><a href="../../news/" class="news">医学信息</a></li>
+		<li><a href="../../bookstore/" class="bookstore">医学书店</a></li>
+		<li><a href="../../exam/" class="exam">考试培训</a></li>
+		<li><a href="../../video/" class="video">视频教学</a></li>
+		<li><a href="../../guestbook/" class="iask">学习答疑</a></li>
+		<li><a href="../../download/" class="download">下载专区</a></li>
+		<li><a href="javascript:void(0);" onclick="window.open('/bbs/')" class="bbs">医博园论坛</a></li>
+	</ul>
+</div>
+<div id="main">
+	<!--http://www.zhihuiyixue.com-->
+	<div id="sidebar">
+		<div id="user-profile">
+			<h3>欢迎您 goto100</h3>
+			<a href="../../bookstore/order/order_5.html" class="haveMessage alert">短消息(1)</a> | <a href="../../user/loginout.html">登出</a> </div>
+		<div id="subNav">
+			<h2><a href="../../user/center/">首页</a></h2>
+			<dl class="nav">
+				<dt id="subNav-user">个人信息</dt>
+				<dd><a href="../../user/center/info.html">查看个人资料</a></dd>
+				<dd><a href="../../user/center/profile.html">修改个人资料</a></dd>
+				<dd><a href="../../user/center/password.html">修改邮箱或密码</a></dd>
+				<dt id="subNav-shop">购物</dt>
+				<dd><a href="../../user/center/orders.html">我的订单</a></dd>
+				<dd><a href="../../user/center/boughts.html">我购买过的书</a></dd>
+				<dt id="subNav-favorite">收藏</dt>
+				<dd><a href="../../user/center/books.html">我收藏的书</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">我收藏的帖子</a></dd>
+				<dt id="subNav-article">文章</dt>
+				<dd><a href="../../user/center/comments.html">我的书评</a></dd>
+				<dd><a href="../../user/center/questions.html">我的问题</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">我的论坛帖子</a></dd>
+				<dt id="subNav-recommend">医学网向您推荐</dt>
+				<dd><a href="../../bookstore/order/order_5.html">期书早知道</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">最新问题</a></dd>
+				<dd><a href="../../bookstore/order/order_5.html">最新帖子</a></dd>
+			</dl>
+		</div>
+	</div>
+	<div id="content">
+		<ul class="crumb">
+			<li class="main"><a href=".">会员中心</a></li>
+			<li>您的订单</li>
+		</ul>
+		<h1>您的订单</h1>
+		<div class="person content">
+			<p class="head">goto100</p>
+			<p class="statistics">您共有<strong class="number note">0</strong>笔交易记录</p>
+		</div>
+		<div class="pagebar">
+			<p>页码：</p>
+			<ul>
+				<li><a href="?page=1">&laquo;</a></li>
+				<li><a href="?page=1">1</a></li>
+				<li class="selected">2</li>
+				<li><a href="?page=3">&raquo;</a></li>
+			</ul>
+			<input type="text" size="2" />
+			<button type="button">转</button>
+		</div>
+		<table class="orders list">
+			<thead>
+				<tr>
+					<th>交易时间</th>
+					<th>订单号</th>
+					<th>金额</th>
+					<th>交易状态</th>
+					<th>详情</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td></td>
+					<td class="currencyYuan">30</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr class="enabled">
+					<td>2008/03/14</td>
+					<th>1212</th>
+					<td class="currencyYuan">30</td>
+					<td class="state">正在配货</td>
+					<td><a href="order.html">详情</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<div id="footer">
+<div id="copyright">
+	<div id="copyrightLeft"><a href="../../about/about.html">公司介绍</a> | <a href="../../about/contact.html">联系我们</a> | <a href="../../about/hr.html">诚聘英才</a> | <a href="../../bookstore/order/order_5.html">网站地图</a></div>
+	<div id="copyrightRight">Copyright &copy; 2007 - 2008 智慧医学网 <a href="http://www.zhihuiyixue.com/">zhihuiyixue.com</a>,<a href="http://www.skin-care-experts.com" title="" style="color:#333333; cursor:text; text-decoration:none;" onmouseover="window.status='';return true;" onMouseOut="window.status='';return true;">Skin</a> All Rights Reserved. - <a href="javascript:void(0);" onclick="window.open('http://www.miibeian.gov.cn/')">京ICP备06048060号</a></div>
+	<div class="clear"></div>
+</div>
+<div id="script">
+	<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+	
+</div>
+</body>
+</html>

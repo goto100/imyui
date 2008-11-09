@@ -1,0 +1,95 @@
+@import url("../../basic.css");
+@import url("../bookstore.css");
+
+@import url("../../common.css");
+@import url("../../bookstore.css");
+
+#content {
+	width: 720px;
+}
+#cart .note .close {
+	border-color: #dee5cf;
+}
+h2#cart-content-title {
+	background-image: url(../../../images/res/bookstore/cart.gif);
+}
+div.cart {
+	background-image: url(../../../images/res/bookstore/cart/cart_big.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+div.cart table {
+	width: 100%;
+}
+div.cart table th.operations {
+	width: 60px;
+}
+div.cart table th.amount {
+	width: 60px;
+}
+div.cart a.button {
+	display: block;
+	margin-top: 5px;
+}
+div.cart .product .amount {
+	width: 2em;
+}
+div.cart .product .title {
+	font-size: 10.5pt;
+}
+div.cart .product .remove {
+	padding-left: 20px;
+	background: url(../../../images/res/bookstore/cart/cart_remove.gif) no-repeat 2px center;
+}
+div.cart .product .collect {
+	padding-left: 20px;
+	background: url(../../../images/res/bookstore/cart/star.gif) no-repeat 2px center;
+}
+div.cart .products .update {
+	padding-left: 20px;
+	background: url(../../../images/res/bookstore/cart/arrow_rotate_clockwise.gif) no-repeat 2px center;
+}
+div.cart input.remove,
+div.cart input.update {
+	height: 22px;
+	width: 50px;
+	line-height: 18px;
+}
+div.cart a.collect {
+	height: 20px;
+	width: 26px;
+}
+#favorite-goods .book {
+	float: left;
+	width: 320px;
+	height: 120px;
+	margin-left: 10px;
+}
+#favorite-goods .book .title {
+	float: right;
+	width: 230px;
+	font-size: 10.5pt;
+}
+
+#cart-guide {
+	float: right;
+	padding: 10px;
+}
+
+#favorite-goods-title {
+	background-image: url(../../../images/res/bookstore/cart/star.gif);
+}
+#recommended-goods {
+	border: 1px solid #ccc;
+}
+#recommended-goods .title {
+}
+#recommended-goods .price {
+	overflow: hidden;
+}
+#recommended-goods .cover {
+	float: left;
+}
+#view-history li {
+	line-height: 20px;
+}

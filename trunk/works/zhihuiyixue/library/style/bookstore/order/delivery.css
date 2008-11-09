@@ -1,0 +1,12 @@
+@import url("../../basic.css");
+@import url("../bookstore.css");
+
+@import url("../../common.css");
+@import url("../../bookstore.css");
+
+#content {
+	width: 920px;
+}
+ol.tab {
+	float: left;
+}

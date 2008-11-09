@@ -1,0 +1,239 @@
+/********************/
+/* Resets ***********/
+/********************/
+
+h3 {
+	font-size: 10.5pt;
+}
+dl {
+	margin: 0;
+}
+
+div.panel h2 {
+	background: url(../images/store_titlebg.gif) no-repeat center top;
+}
+
+#main {
+	padding-bottom: 5px;
+}
+#sidebar {
+	margin: 0 -10px 10px 25px;
+}
+#content {
+	width: 700px;
+	margin: 0 10px 0 25px;
+}
+#secContent {
+	display: inline;
+	float: right;
+	width: 200px;
+	margin-right: 25px;
+}
+#content ul, 
+#content ol {
+	margin-top: 0 !important;
+}
+#content p img {
+	display: inline;
+}
+
+#content h2 {
+	margin-bottom: 10px;
+}
+#content h2 a.button {
+	display: inline;
+	float: right;
+	width: 30px;
+	line-height: 1.4em;
+	font-size: 12px;
+	text-align: center;
+	margin-top: -22px;
+	margin-right: 5px;
+	background-color: #fff;
+}
+#content h2 a.button:hover {
+	background-image: none;
+}
+
+
+.currencyYuan {
+	padding-left: 8px;
+	background-image: url(../images/price_2.gif);
+}
+
+
+.book h3 {
+	font-size: 9pt;
+	margin-bottom: 0.5em;
+}
+.book h4 {
+	font-size: 9pt;
+	font-weight: normal;
+}
+.book div.figure {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.book .cover {
+	display: block;
+	border: 4px solid #ccc;
+}
+.book .buy {
+	float: right;
+	padding-left: 20px;
+	background: url(../images/res/bookstore/cart_put.gif) no-repeat 2px center;
+}
+.book .order {
+	float: right;
+	padding-left: 20px;
+	background: #ffc url(../images/res/bookstore/cart_put.gif) no-repeat 2px center;
+}
+.book .summary {
+	font-size: 9pt;
+}
+.discount {
+	font-family: "Orator Std";
+}
+.discount sub {
+	vertical-align: baseline;
+}
+
+
+*.list li {
+	margin-bottom: 5px;
+}
+ul.list .book {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #666;
+}
+ul.list .book h3.title {
+	font-size: 14px;
+}
+ul.list .book h4.title {
+	font-size: 12px;
+	font-weight: normal;
+}
+ul.gallery .book {
+	width: 165px;
+	text-align: center;
+}
+ul.gallery .book div.figure {
+	float: none;
+	width: 76px;
+	margin: 0 auto;
+	margin-bottom: 6px;
+}
+ul.gallery .book .cover {
+	margin: 0 auto;
+}
+ul.gallery .book .title {
+	clear: left;
+	font-size: 9pt;
+}
+ul.gallery .book .buy {
+	float: none;
+}
+div.panel ul.list .book h3 {
+	font-size: 9pt;
+}
+
+.cart .checkout {
+	display: block;
+	width: 131px;
+	height: 31px;
+	margin-bottom: 6px;
+	text-indent: -9999px;
+	outline: none;
+	background: url(../images/res/bookstore/cart_checkout.gif) no-repeat left -31px;
+}
+div.cart .checkout:hover {
+	background: url(../images/res/bookstore/cart_checkout.gif) no-repeat left top;
+}
+div.cart .subtotal strong {
+	color: #900;
+	background-image: url(../images/price_3.gif);
+	font-family: Raavi;
+	font-size: 10.5pt;
+}
+div.cart .cart {
+	padding-left: 20px;
+	background: url(../images/res/bookstore/cart.gif) no-repeat 2px center;
+}
+div.cart .book {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+div.cart .book .amount {
+	color: #900;
+}
+div.cart ul.list .book .price {
+	text-align: right;
+}
+div.cart .shipping {
+	color: #666;
+}
+div.cart .pre-sale.product .shipping {
+	color: #000;
+}
+div.cart h2 {
+	height: 24px;
+	text-indent: -9999px;
+	background: url(../images/res/bookstore/cart/cart_title.gif) no-repeat center top;
+}
+div.cart a {
+	color: #000;
+}
+div.cart ul.list {
+	margin: inherit 10px inherit 10px;
+	padding: 5px;
+	background-color: #fff;
+}
+div.cart .checkout {
+	margin-left: 20px;
+}
+div.cart .submit {
+	display: block;
+	width: 158px;
+	height: 48px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	outline: none;
+	background: url(../images/res/bookstore/order-submit.gif) no-repeat center center;
+	border: none;
+}
+div.cart ul.list {
+	text-align: left;
+}
+
+
+
+div.books table.list thead {
+	background-color:#eee;
+}
+div.books table.list th,
+div.books table.list td {
+	border-color: #ccc;
+}
+
+div.books p.discount {
+	float: left;
+	position: relative;
+	width: 80px;
+	height: 40px;
+	margin-top: -44px;
+	text-align: right;
+	background: url(../images/res/bookstore/special.png) no-repeat right bottom;
+	_background: url(../images/res/bookstore/special.gif) no-repeat right bottom;
+}
+div.books p.discount strong {
+	display: block;
+	margin-right:20px;
+	font-size: 25px;
+	line-height: 1em;
+	letter-spacing: -8px;
+	color: #f60;
+}
+div.books p.discount strong:first-letter {
+	font-size: 40px;
+}

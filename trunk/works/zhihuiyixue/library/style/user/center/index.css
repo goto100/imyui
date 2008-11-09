@@ -1,0 +1,59 @@
+/*********************************************/
+/* Layouts ***********************************/
+/*********************************************/
+#content {
+	width:500px;
+	padding: 0 10px;
+}
+#sidebar2 {
+	_display:inline;
+	float:right;
+	margin-right:10px;
+	width:210px;
+}
+
+
+/*********************************************/
+/* Widgets ***********************************/
+/*********************************************/
+#help h3 {
+	padding-left:20px;
+	background:url(../../../images/user/help.gif) no-repeat left top;
+}
+#contact h3 {
+	padding-left:20px;
+	background:url(../../../images/user/contact.gif) no-repeat left top;
+}
+#contact p {
+	margin: 0px;
+	font-weight: bold;
+	color: #4D8DCB;
+}
+#contact dd {
+	margin: 0 0 2px 0;
+	padding-bottom: 2px;
+	color:#666666;
+}
+#contact dt {
+	margin-top:4px;
+	padding-top:4px;
+	border-top: 1px dashed #496B46;
+	text-decoration: underline;
+}
+#user-information {
+	margin: 0 -10px;
+	padding:20px 20px 10px 120px;
+	height:120px;
+	background:url(../../../images/user/user-information.gif) no-repeat left top;
+}
+#user-information h2 {
+	color:#FFFFFF;
+	font-size:14pt;
+	margin-bottom:20px;
+}
+#user-information a {
+	color:#0033FF;
+}
+#user-information-more {
+	float: right;
+}

@@ -1,0 +1,94 @@
+@import url("../basic.css");
+@import url("bookstore.css");
+
+@import url("../common.css");
+@import url("../bookstore.css");
+
+/********************/
+/* Resets ***********/
+/********************/
+
+#content div.accordion ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+/********************/
+/* Layouts **********/
+/********************/
+#content {
+	width: 725px;
+}
+
+#content h2 {
+	background-image: url(../../images/store_navsign_5.gif);
+}
+
+
+/********************/
+/* Widgets **********/
+/********************/
+
+#sales-special-books-pagebar {
+	text-align: right;
+}
+div.content ul.list div.figure {
+	position: relative;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+#comments-special-books li.best {
+	clear: left;
+
+}
+
+
+/********************/
+/* Modules **********/
+/********************/
+
+*.list .book {
+	display: inline;
+	float: left;
+	width: 315px;
+	height: 120px;
+	margin: 5px 10px 10px 13px;
+	padding: 5px 5px 0 0;
+	border: 1px solid #d5d5d5;
+	background: url(../../images/res/arrow.gif) no-repeat right bottom;
+}
+*.list .book h3 {
+	float: right;
+	width: 230px;
+	margin-bottom: 10px;
+	line-height: 1.8em;
+	height: 3.6em;
+	font-size: 9pt;
+}
+*.list .book h3 a {
+	border-bottom: 2px solid #dde4c3;
+}
+*.list .book h3 a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid #aabc6a;
+}
+ul.list li h3 a {
+	line-height: 1.8em;
+	border-bottom: 2px solid #dde4c3;
+}
+ul.list li h3 a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid #aabc6a;
+}
+ul.list li a.comments {
+	color: #333;
+}
+.books div.summary {
+	margin-left: 100px;
+	background: url(../../images/sign_8.gif) no-repeat left top;
+}
+.books div.summary p {
+	font-size: 9pt;
+}
+
