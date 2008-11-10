@@ -13,7 +13,7 @@
 			<school></school>
 		</graduate>
 		<contact>
-			<phone>13821005220</phone>
+			<phone>15010007463</phone>
 			<email>goto100@gmail.com</email>
 			<url>http://www.imyui.cn/</url>
 		</contact>
@@ -21,7 +21,7 @@
 	</header>
 
 	<objective>
-		<p>遵循 Web 标准的 Web 前端设计与开发与 ASP 网站后端开发。</p>
+		<p>Web前端设计与开发或J2EE网站后端开发。</p>
 	</objective>
 	
 	<history>
@@ -115,27 +115,23 @@
 			</degree>
 		</degrees>
 	</academics>
-	
 	<skillSet>
 		<skills>
-			<title>认证</title>
-			<item>2007年2月取得全国计算机软件技术资格与水平考试软件设计师认证；</item>
-		</skills>
-		<skills>
 			<title>Web前端</title>
-			<item>精通 XHTML+CSS 页面制作，兼容各种浏览器，对网页三层分离有深刻的理解，从用户行为和用户心理入手，设计用户界面，实现良好的用户体验方案；</item>
-			<item>精通 XML+XSL 页面制作，优化网站体系结构，便于维护；</item>
-			<item>熟练掌握 JavaScript 脚本，可进行基于 Prototype 的 Ajax 开发；</item>
-			<item>了解 Xforms、Xpath 等 XML 相关技术。</item>
-			<item>熟练使用 Photoshop、Fireworks 等制图软件；</item>
+			<item>精通XHTML+CSS页面制作，兼容各种浏览器，对网页三层分离有深刻的理解，从用户行为和用户心理入手，设计用户界面，实现良好的用户体验方案；</item>
+			<item>精通XML与XSL，结合Xforms、XUL等技术制作语义化、易开发和可维护的前端系统；</item>
+			<item>熟练掌握JavaScript，熟练使用base2、jQuery、mootools等各种Ajax框架；</item>
+			<item>熟练使 Photoshop、Fireworks等制图软件；</item>
 		</skills>
 		<skills>
 			<title>Web后端</title>
-			<item>精通 ASP（JavaScript 或 VBScript）数据库后台开发，可实现购物系统、新闻系统、用户系统、上传等功能；</item>
-			<item>熟练 Java 及 Struts、Hibernate；</item>
-			<item>深入理解面向对象、MVC 等思想，了解设计模式，进行高质量的程序开发；</item>
+			<item>了解REST网站架构；</item>
+			<item>精通ASP，熟练JSP，建设MVC结构的网站；</item>
+			<item>熟练使用Linux，对Linux有浓厚的兴趣，可在Linux下进行工作，搭建各种服务器。</item>
+		</skills>
+		<skills>
+			<title>认证</title>
 			<item>2007年2月取得全国计算机软件技术资格与水平考试软件设计师认证；</item>
-			<item>熟练使用 Linux，可在 Linux 下进行工作，搭建各种服务器；</item>
 		</skills>
 		<skills>
 			<title>其他</title>

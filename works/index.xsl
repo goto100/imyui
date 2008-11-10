@@ -15,7 +15,10 @@
 </xsl:template>
 
 <xsl:template match="/works">
-	<xsl:apply-templates />
+	<xsl:apply-templates>
+		<xsl:sort select="period/from/date/year" order="descending" />
+		<xsl:sort select="period/from/date/month" order="descending" />
+	</xsl:apply-templates>
 </xsl:template>
 
 <xsl:template match="/works/item">

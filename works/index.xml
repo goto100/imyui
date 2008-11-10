@@ -70,23 +70,23 @@
 		<screen-shot src="images/zhihuiyixue_6.png" />
 		<screen-shot src="images/zhihuiyixue_7.png" />
 		<screen-shot src="images/zhihuiyixue_8.png" />
-		<url>http://www.zhihuiyixue.com/</url>
+		<url>zhihuiyixue/bookstore/topsale.html</url>
 		<description>
-			<p>在此网站的改版中我全部遵循Web标准制作了：</p>
+			<p>应用Web标准对网站进行了重构：</p>
 			<h3>网上书店部分页面</h3>
-			<p>使用绝对定位及透明图片覆盖封面，显示美观的图书信息，<a href="http://www.zhihuiyixue.com/bookstore/static-topsale.html">访问</a>，见截图1。</p>
+			<p>使用绝对定位及透明图片覆盖封面，<a href="zhihuiyixue/bookstore/topsale.html">访问</a>，见截图1。</p>
 			<h3>网上书店购物车与购物流程</h3>
-			<p>见截图5至9。</p>
+			<p><a href="zhihuiyixue/bookstore/cart/addcart.html">访问</a>，见截图5至9。</p>
 			<ul>
 				<li>使用模拟标签页的方式，标注购物步骤，让用户在购物流程中一气呵成；</li>
 				<li>在合适的地方对于常见问题给予直接正确的提示；</li>
 				<li>本着简洁、高效的设计原则设计购物流程，简化购物流程，避免多余点击。</li>
 			</ul>
 			<h3>会员中心</h3>
-			<p>见截图2、3、4。</p>
+			<p><a href="zhihuiyixue/user/center">访问</a>，见截图2、3、4。</p>
 			<ul>
 				<li>更直接明白的信息显示方式，避免用户思考，如用“昨天”、“前天”等提示代替具体日期；</li>
-				<li>在首页中给出最新最关切的信息，避免用户寻找；</li>
+				<li>在首页中给出最新最关切的信息，避免用户寻找。</li>
 			</ul>
 		</description>
 	</item>
