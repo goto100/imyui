@@ -78,7 +78,7 @@
 </xsl:template>
 
 <xsl:template match="/resume/history/job">
-	<h3><strong><xsl:value-of select="employer" /></strong><xsl:value-of select="jobtitle" /></h3>
+	<h3><xsl:value-of select="employer" /><xsl:text> </xsl:text><xsl:value-of select="jobtitle" /></h3>
 	<p class="period"><xsl:apply-templates select="period" mode="default" /></p>
 	<xsl:copy-of select="description" />
 </xsl:template>

@@ -4,18 +4,8 @@
 <works>
 	<item>
 		<period>
-			<from>
-				<date>
-					<month>8</month>
-					<year>2008</year>
-				</date>
-			</from>
-			<to>
-				<date>
-					<month>11</month>
-					<year>2008</year>
-				</date>
-			</to>
+			<from>2008-08</from>
+			<to>2008-11</to>
 		</period>
 		<name>智慧医学网后台管理系统</name>
 		<picture src="images/zhihuiyixue.png" />
@@ -46,18 +36,8 @@
 	</item>
 	<item>
 		<period>
-			<from>
-				<date>
-					<month>4</month>
-					<year>2008</year>
-				</date>
-			</from>
-			<to>
-				<date>
-					<month>8</month>
-					<year>2008</year>
-				</date>
-			</to>
+			<from>2008-04</from>
+			<to>2008-08</to>
 		</period>
 		<name>智慧医学网</name>
 		<picture src="images/zhihuiyixue.png" />
@@ -92,18 +72,8 @@
 	</item>
 	<item>
 		<period>
-			<from>
-				<date>
-					<month>1</month>
-					<year>2006</year>
-				</date>
-			</from>
-			<to>
-				<date>
-					<month>12</month>
-					<year>2006</year>
-				</date>
-			</to>
+			<from>2006-01</from>
+			<to>2006-12</to>
 		</period>
 		<name>ASP MVC框架</name>
 		<picture src="images/asp-mvc.png" />
@@ -145,18 +115,8 @@
 		<screen-shot src="images/mltr-cn_4.png" />
 		<url>http://www.imyui.cn/works/mltr.cn/v3.0/</url>
 		<period>
-			<from>
-				<date>
-					<month>5</month>
-					<year>2004</year>
-				</date>
-			</from>
-			<to>
-				<date>
-					<month>4</month>
-					<year>2007</year>
-				</date>
-			</to>
+			<from>2004-05</from>
+			<to>2004-07</to>
 		</period>
 		<description>
 			<p>MLTR(Michael Learns To Rock)，麦克学摇滚，是来自丹麦的一只乐队，出于对他们的喜爱，且当时国内并没有一个够好的歌迷网站，于是产生了制作个网站的想法。</p>
@@ -193,34 +153,14 @@
 			<p>责任描述：此项目由两人完成，我负责除美工之外的所有工作。</p>
 		</description>
 		<period>
-			<from>
-				<date>
-					<month>12</month>
-					<year>2005</year>
-				</date>
-			</from>
-			<to>
-				<date>
-					<month>12</month>
-					<year>2005</year>
-				</date>
-			</to>
+			<from>2005-12</from>
+			<to>2005-12</to>
 		</period>
 	</item>
 	<item>
 		<period>
-			<from>
-				<date>
-					<month>3</month>
-					<year>2006</year>
-				</date>
-			</from>
-			<to>
-				<date>
-					<month>4</month>
-					<year>2006</year>
-				</date>
-			</to>
+			<from>2006-03</from>
+			<to>2006-04</to>
 		</period>
 		<name>Richter International 公司网站</name>
 		<picture src="images/richter-international.png" />
@@ -247,18 +187,8 @@
 	</item>
 	<item>
 		<period>
-			<from>
-				<date>
-					<month>7</month>
-					<year>2006</year>
-				</date>
-			</from>
-			<to>
-				<date>
-					<month>9</month>
-					<year>2006</year>
-				</date>
-			</to>
+			<from>2006-07</from>
+			<to>2006-09</to>
 		</period>
 		<name>天津三合中广动漫设计有限公司网站</name>
 		<picture src="images/plus3design.png" />

@@ -26,21 +26,11 @@
 	
 	<history>
 		<job>
-			<jobtitle>网页设计制作</jobtitle>
+			<jobtitle>前端开发工程师</jobtitle>
 			<employer>北京智慧之窗图书销售有限公司</employer>
 			<period>
-				<from>
-					<date>
-						<month>4</month>
-						<year>2008</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>11</month>
-						<year>2008</year>
-					</date>
-				</to>
+				<from>2008-04</from>
+				<to>2008-12</to>
 			</period>
 			<description>
 				<ul>
@@ -54,22 +44,12 @@
 			<employer>天津三合中广动漫设计有限公司</employer>
 			
 			<period>
-				<from>
-					<date>
-						<month>7</month>
-						<year>2006</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>9</month>
-						<year>2006</year>
-					</date>
-				</to>
+				<from>2006-07</from>
+				<to>2006-09</to>
 			</period>
 			<description>
 				<ul>
-					<li>领导制作了公司网站plus3design.cn；</li>
+					<li>独立制作了公司网站plus3design.cn。</li>
 				</ul>
 			</description>
 		</job>
@@ -78,25 +58,12 @@
 			<employer>中国广播网</employer>
 			
 			<period>
-				<from>
-					<date>
-						<month>1</month>
-						<year>2006</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>2</month>
-						<year>2006</year>
-					</date>
-				</to>
+				<from>2006-01</from>
+				<to>2006-02</to>
 			</period>
 			<description>
 				<ul>
 					<li>负责网站流媒体服务器的搭建与维护；</li>
-					<li>负责建设及维护公司内部网络；</li>
-					<li>负责部门计算机的日常维护；</li>
-					<li>参与视频短片的拍摄。</li>
 				</ul>
 			</description>
 		</job>
@@ -107,10 +74,7 @@
 			<degree>
 				<level>大本</level>
 				<major>计算机科学与技术</major>
-				<date>
-					<month>7</month>
-					<year>2008</year>
-				</date>
+				<date>2008-07</date>
 				<institution>天津工程师范学院</institution>
 			</degree>
 		</degrees>
@@ -146,6 +110,6 @@
 		<para></para>
 	</legalnotice>
 	</copyright>
-
+	<lastUpdate>2008/11/13</lastUpdate>
 </resume>
 
