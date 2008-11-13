@@ -7,9 +7,9 @@
 			<from>2008-08</from>
 			<to>2008-11</to>
 		</period>
-		<name>oXSL框架</name>
+		<name>XSLUI框架</name>
 		<picture src="images/zhihuiyixue.png" />
-		<url>http://oxsl.googlecode.com</url>
+		<url>http://xslui.googlecode.com</url>
 		<description>
 			<p>一个浏览器端XSL框架，提供i18n和各种控件功能。</p>
 			<ul>
