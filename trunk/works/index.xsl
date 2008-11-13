@@ -18,6 +18,8 @@
 	<xsl:apply-templates>
 		<xsl:sort select="period/from/date/year" order="descending" />
 		<xsl:sort select="period/from/date/month" order="descending" />
+		<xsl:sort select="period/to/date/year" order="descending" />
+		<xsl:sort select="period/to/date/month" order="descending" />
 	</xsl:apply-templates>
 </xsl:template>
 
