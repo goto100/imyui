@@ -7,6 +7,26 @@
 			<from>2008-08</from>
 			<to>2008-11</to>
 		</period>
+		<name>oXSL框架</name>
+		<picture src="images/zhihuiyixue.png" />
+		<url>http://oxsl.googlecode.com</url>
+		<description>
+			<p>一个浏览器端XSL框架，提供i18n和各种控件功能。</p>
+			<ul>
+				<li>i18n</li>
+				<li>表单</li>
+				<li>页码</li>
+				<li>树</li>
+				<li>树状下拉列表</li>
+				<li>数据表格</li>
+			</ul>
+		</description>
+	</item>
+	<item>
+		<period>
+			<from>2008-08</from>
+			<to>2008-11</to>
+		</period>
 		<name>智慧医学网后台管理系统</name>
 		<picture src="images/zhihuiyixue.png" />
 		<url>http://www.zhihuiyixue.com/</url>

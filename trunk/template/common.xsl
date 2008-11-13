@@ -5,10 +5,10 @@
 >
 <xsl:output method="html" encoding="utf-8" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
 
-	<xsl:include href="../lib/oxsl/function.xsl" />
-	<xsl:include href="../lib/oxsl/exslt/date/difference.xsl" />
-	<xsl:include href="../lib/oxsl/exslt/date/year.xsl" />
-	<xsl:include href="../lib/oxsl/exslt/date/month-in-year.xsl" />
+	<xsl:include href="../lib/xslui/function.xsl" />
+	<xsl:include href="../lib/xslui/exslt/date/difference.xsl" />
+	<xsl:include href="../lib/xslui/exslt/date/year.xsl" />
+	<xsl:include href="../lib/xslui/exslt/date/month-in-year.xsl" />
 
 	<xsl:template match="/" mode="default">
 		<xsl:param name="title" />
