@@ -2,13 +2,17 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:date="http://exslt.org/dates-and-times"
+
+	xmlns:ui="http://imyui.cn/xslui"
 >
-<xsl:output method="html" encoding="utf-8" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
+
+	<xsl:output method="html" encoding="utf-8" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
 
 	<xsl:include href="../lib/xslui/function.xsl" />
 	<xsl:include href="../lib/xslui/exslt/date/difference.xsl" />
 	<xsl:include href="../lib/xslui/exslt/date/year.xsl" />
 	<xsl:include href="../lib/xslui/exslt/date/month-in-year.xsl" />
+	<xsl:include href="../lib/xslui/widget/format-duration.xsl" />
 
 	<xsl:template match="/" mode="default">
 		<xsl:param name="title" />
@@ -78,16 +82,22 @@
 				<xsl:apply-templates select="from" mode="default" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:apply-templates select="from" mode="default" /> 至 <xsl:apply-templates select="to" mode="default" />
+				<xsl:apply-templates select="from" mode="default" />
+				<xsl:text> 至</xsl:text>
+				<xsl:choose>
+					<xsl:when test="to"> <xsl:apply-templates select="to" mode="default" /></xsl:when>
+					<xsl:otherwise>今</xsl:otherwise>
+				</xsl:choose>
 				<xsl:variable name="period">
 					<xsl:call-template name="date:difference">
 						<xsl:with-param name="start" select="from" />
-						<xsl:with-param name="end" select="to" />
+						<xsl:with-param name="end" select="(to | document('../works/now.asp')/now)[1]" />
 					</xsl:call-template>
 				</xsl:variable>
 				<xsl:text> </xsl:text>
-				<xsl:value-of select="substring-after(substring-before($period, 'M'), 'P')" />
-				<xsl:text>个月</xsl:text>
+				<xsl:call-template name="ui:duration">
+					<xsl:with-param name="duration" select="$period" />
+				</xsl:call-template>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
