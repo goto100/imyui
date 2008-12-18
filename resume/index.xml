@@ -21,7 +21,7 @@
 	</header>
 
 	<objective>
-		<p>Web前端设计与开发或J2EE网站后端开发。</p>
+		<p>Web前端与JavaScript RIA设计与开发。</p>
 	</objective>
 	
 	<history>
@@ -79,13 +79,14 @@
 			</degree>
 		</degrees>
 	</academics>
+
 	<skillSet>
 		<skills>
 			<title>Web前端</title>
 			<item>精通XHTML+CSS页面制作，兼容各种浏览器，对网页三层分离有深刻的理解，从用户行为和用户心理入手，设计用户界面，实现良好的用户体验方案；</item>
 			<item>精通XML与XSL，结合Xforms、XUL等技术制作语义化、易开发和可维护的前端系统；</item>
-			<item>熟练掌握JavaScript，熟练使用base2、jQuery、mootools等各种Ajax框架；</item>
-			<item>熟练使 Photoshop、Fireworks等制图软件；</item>
+			<item>数量站我JavaScript，熟练使用base2、jQuery、mootools等各种Ajax框架；</item>
+			<item>熟练使Photoshop、Fireworks等制图软件；</item>
 		</skills>
 		<skills>
 			<title>Web后端</title>
@@ -103,13 +104,13 @@
 			<item>游泳。</item>
 		</skills>
 	</skillSet>
-		
+
 	<copyright>
 	<year>2008</year>
 	<legalnotice>
 		<para></para>
 	</legalnotice>
 	</copyright>
-	<lastUpdate>2008/11/13</lastUpdate>
+	<lastUpdate>2008/12/18</lastUpdate>
 </resume>
 
