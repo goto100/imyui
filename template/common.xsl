@@ -88,15 +88,10 @@
 					<xsl:when test="to"> <xsl:apply-templates select="to" mode="default" /></xsl:when>
 					<xsl:otherwise>今</xsl:otherwise>
 				</xsl:choose>
-				<xsl:variable name="period">
-					<xsl:call-template name="date:difference">
-						<xsl:with-param name="start" select="from" />
-						<xsl:with-param name="end" select="(to | document('../works/now.asp')/now)[1]" />
-					</xsl:call-template>
-				</xsl:variable>
 				<xsl:text> </xsl:text>
-				<xsl:call-template name="ui:duration">
-					<xsl:with-param name="duration" select="$period" />
+				<xsl:call-template name="ui:format-duration">
+					<xsl:with-param name="start" select="from" />
+					<xsl:with-param name="end" select="(to | document('../works/now.asp')/now)[1]" />
 				</xsl:call-template>
 			</xsl:otherwise>
 		</xsl:choose>
