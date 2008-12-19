@@ -101,6 +101,9 @@ p.note {
 	border:5px solid #EEEEEE;
 }
 
+div.poject {
+	clear: both;
+}
 ul.gallery {
 	margin:0;
 	padding:0;

@@ -8,7 +8,7 @@
 
 	<xsl:output method="html" encoding="utf-8" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
 
-	<xsl:include href="../lib/xslui/function.xsl" />
+	<xsl:include href="../lib/xslui/xslui.xsl" />
 	<xsl:include href="../lib/xslui/exslt/date/difference.xsl" />
 	<xsl:include href="../lib/xslui/exslt/date/year.xsl" />
 	<xsl:include href="../lib/xslui/exslt/date/month-in-year.xsl" />
@@ -82,12 +82,21 @@
 				<xsl:apply-templates select="from" mode="default" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:apply-templates select="from" mode="default" />
-				<xsl:text> 至</xsl:text>
-				<xsl:choose>
-					<xsl:when test="to"> <xsl:apply-templates select="to" mode="default" /></xsl:when>
-					<xsl:otherwise>今</xsl:otherwise>
-				</xsl:choose>
+				<xsl:call-template name="ui:label">
+					<xsl:with-param name="name">from-date-to-date</xsl:with-param>
+					<xsl:with-param name="param">
+						<param name="from">
+							<xsl:attribute name="value">
+								<xsl:apply-templates select="from" mode="default" />
+							</xsl:attribute>
+						</param>
+						<param name="to">
+							<xsl:attribute name="value">
+								<xsl:apply-templates select="to" mode="default" />
+							</xsl:attribute>
+						</param>
+					</xsl:with-param>
+				</xsl:call-template>
 				<xsl:text> </xsl:text>
 				<xsl:call-template name="ui:format-duration">
 					<xsl:with-param name="start" select="from" />
