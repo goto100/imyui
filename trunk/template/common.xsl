@@ -71,18 +71,12 @@
 				<xsl:apply-templates select="from" mode="default" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:call-template name="ui:label">
-					<xsl:with-param name="name">format-date</xsl:with-param>
-					<xsl:with-param name="param">
-						<date year="" month="" day="" />
-					</xsl:with-param>
+				<xsl:call-template name="ui:format-date">
+					<xsl:with-param name="date" select="from" />
 				</xsl:call-template>
 				<xsl:text> - </xsl:text>
-				<xsl:call-template name="ui:label">
-					<xsl:with-param name="name">format-date</xsl:with-param>
-					<xsl:with-param name="param">
-						<date year="" month="" day="" />
-					</xsl:with-param>
+				<xsl:call-template name="ui:format-date">
+					<xsl:with-param name="date" select="to" />
 				</xsl:call-template>
 				<xsl:text> </xsl:text>
 				<xsl:call-template name="ui:format-duration">
