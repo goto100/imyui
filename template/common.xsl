@@ -65,17 +65,6 @@
 		<xsl:value-of select="firstname" /><xsl:value-of select="surname" />
 	</xsl:template>
 
-	<xsl:template match="date | from | to" mode="default">
-		<xsl:call-template name="date:year">
-			<xsl:with-param name="date-time" select="." />
-		</xsl:call-template>
-		<xsl:text>年</xsl:text>
-		<xsl:call-template name="date:month-in-year">
-			<xsl:with-param name="date-time" select="." />
-		</xsl:call-template>
-		<xsl:text>月</xsl:text>
-	</xsl:template>
-
 	<xsl:template match="period" mode="default">
 		<xsl:choose>
 			<xsl:when test="from = to">
@@ -83,18 +72,16 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:call-template name="ui:label">
-					<xsl:with-param name="name">from-date-to-date</xsl:with-param>
+					<xsl:with-param name="name">format-date</xsl:with-param>
 					<xsl:with-param name="param">
-						<param name="from">
-							<xsl:attribute name="value">
-								<xsl:apply-templates select="from" mode="default" />
-							</xsl:attribute>
-						</param>
-						<param name="to">
-							<xsl:attribute name="value">
-								<xsl:apply-templates select="to" mode="default" />
-							</xsl:attribute>
-						</param>
+						<date year="" month="" day="" />
+					</xsl:with-param>
+				</xsl:call-template>
+				<xsl:text> - </xsl:text>
+				<xsl:call-template name="ui:label">
+					<xsl:with-param name="name">format-date</xsl:with-param>
+					<xsl:with-param name="param">
+						<date year="" month="" day="" />
 					</xsl:with-param>
 				</xsl:call-template>
 				<xsl:text> </xsl:text>

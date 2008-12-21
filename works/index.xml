@@ -21,14 +21,18 @@
 		<picture src="images/xslui.png" />
 		<url>http://xslui.googlecode.com</url>
 		<description>
-			<p>一个浏览器端XSL框架，提供i18n和各种控件功能。</p>
+			<p>XSLUI可以将XML源文件格式化成html，包括以下特性：</p>
 			<ul>
-				<li>i18n</li>
-				<li>表单</li>
-				<li>页码</li>
-				<li>树</li>
-				<li>树状下拉列表</li>
-				<li>数据表格</li>
+				<li>国际化功能，通过语言文件显示不同语言的界面；</li>
+				<li>类xfroms的表单元素制作方式；</li>
+				<li>丰富的控件，包括：
+					<ul>
+						<li>可折叠树；</li>
+						<li>树状下拉列表；</li>
+						<li>分页；</li>
+						<li>数据表格。</li>
+					</ul>
+				</li>
 			</ul>
 		</description>
 	</item>
