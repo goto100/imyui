@@ -9,10 +9,6 @@
 	<xsl:output method="html" encoding="utf-8" indent="yes" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
 
 	<xsl:include href="../lib/xslui/xslui.xsl" />
-	<xsl:include href="../lib/xslui/exslt/date/difference.xsl" />
-	<xsl:include href="../lib/xslui/exslt/date/year.xsl" />
-	<xsl:include href="../lib/xslui/exslt/date/month-in-year.xsl" />
-	<xsl:include href="../lib/xslui/widget/format-duration.xsl" />
 
 	<xsl:template match="/" mode="default">
 		<xsl:param name="title" />
@@ -74,10 +70,19 @@
 				<xsl:call-template name="ui:format-date">
 					<xsl:with-param name="date" select="from" />
 				</xsl:call-template>
-				<xsl:text> - </xsl:text>
-				<xsl:call-template name="ui:format-date">
-					<xsl:with-param name="date" select="to" />
-				</xsl:call-template>
+				<xsl:choose>
+					<xsl:when test="to">
+						<xsl:text> - </xsl:text>
+						<xsl:call-template name="ui:format-date">
+							<xsl:with-param name="date" select="to" />
+						</xsl:call-template>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:call-template name="ui:text">
+							<xsl:with-param name="name">until-now</xsl:with-param>
+						</xsl:call-template>
+					</xsl:otherwise>
+				</xsl:choose>
 				<xsl:text> </xsl:text>
 				<xsl:call-template name="ui:format-duration">
 					<xsl:with-param name="start" select="from" />
