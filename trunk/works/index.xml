@@ -10,7 +10,16 @@
 		<picture src="images/ak-photo.png" />
 		<url>ak-photo/</url>
 		<description>
-			<p>安康影像网</p>
+			<p>此项目正在制作中，使用asp制作。是一个提供照片冲洗和个性礼品定制的网站，功能包括：</p>
+			<dl>
+				<dt>文件上传</dt>
+				<dd>网站涉及大量的图片上传，上传功能应该强大、稳定、效率高，我编写了一个通用上传类，通过分块接收上传数据，实现同步显示上传进度的功能，且上传效率更高。</dd>
+				<dt>购物系统</dt>
+				<dd>根据照片冲洗和个性礼品定制两种不同的商品生成订单，用户可以查询订单状态。</dd>
+				<dt>后台管理</dt>
+				<dd>权限控制与订单处理等功能。</dd>
+			</dl>
+			<p>您可以<a href="ak-photo/">访问这里</a>查看本项目的当前进度。</p>
 		</description>
 	</item>
 	<item>
@@ -21,7 +30,8 @@
 		<picture src="images/xslui.png" />
 		<url>http://xslui.googlecode.com</url>
 		<description>
-			<p>XSLUI可以将XML源文件格式化成html，包括以下特性：</p>
+			<p>可<a href="http://xslui.googlecode.com" rel="external">通过Google Code托管查看此项目</a>最新代码。</p>
+			<p>XSLUI是一个将XML源文件转换为html的XSL库，它包括以下特性：</p>
 			<ul>
 				<li>国际化功能，通过语言文件显示不同语言的界面；</li>
 				<li>类xfroms的表单元素制作方式；</li>
@@ -30,7 +40,8 @@
 						<li>可折叠树；</li>
 						<li>树状下拉列表；</li>
 						<li>分页；</li>
-						<li>数据表格。</li>
+						<li>数据表格；</li>
+						<li>模态可移动窗口。</li>
 					</ul>
 				</li>
 			</ul>
@@ -49,22 +60,20 @@
 			<h3>使用技术</h3>
 			<dl>
 				<dt>XML</dt>
-				<dd></dd>
+				<dd>使用XML作为数据源，通过命名空间区分各种对象，涉及到RDF、都柏林核心（dublin core）等XML标准，并根据数据需要自定了命名空间。</dd>
 				<dt>XSL</dt>
-				<dd></dd>
+				<dd>使用XSL将XML格式化成HTML进行输出，通过简历模板实现代码公用。</dd>
 				<dt>XForms</dt>
-				<dd></dd>
+				<dd>表单页面输出xforms格式数据格式，由于目前没有浏览器支持xforms，在页面中没有直接使用xforms的控件，而是通过XSL将xforms转换成html进行输出。</dd>
 			</dl>
 			<h3>使用框架</h3>
 			<dl>
+				<dt>jQuery</dt>
+				<dd>使用它制作页面中的一些组件。</dd>
 				<dt>EXT</dt>
-				<dd></dd>
-				<dt>mootools</dt>
-				<dd></dd>
-				<dt>Dojo</dt>
-				<dd></dd>
+				<dd>使用它制作后台的界面部分，后台的各个功能模块通过其中的一个iframe进行调用。</dd>
 				<dt>EXSLT</dt>
-				<dd></dd>
+				<dd>它对XSLT的功能进行了扩充。</dd>
 			</dl>
 		</description>
 	</item>
@@ -150,7 +159,7 @@
 		<url>http://www.imyui.cn/works/mltr.cn/v3.0/</url>
 		<period>
 			<from>2004-05</from>
-			<to>2004-07</to>
+			<to>2006-07</to>
 		</period>
 		<description>
 			<p>MLTR(Michael Learns To Rock)，麦克学摇滚，是来自丹麦的一只乐队，出于对他们的喜爱，且当时国内并没有一个够好的歌迷网站，于是产生了制作个网站的想法。</p>

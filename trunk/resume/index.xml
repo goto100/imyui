@@ -23,6 +23,15 @@
 	<objective>
 		<p>Web前端与JavaScript RIA设计与开发。</p>
 	</objective>
+
+	<selfAssessment>
+		<ul>
+			<li>4年多网站前端设计开发经验;</li>
+			<li>8年以上网龄，热爱互联网；</li>
+			<li>喜欢钻研，全面且深入理解技术；</li>
+			<li>热爱学习，热衷于各种新技术；</li>
+		</ul>
+	</selfAssessment>
 	
 	<history>
 		<job>
@@ -34,8 +43,9 @@
 			</period>
 			<description>
 				<ul>
-					<li>使用XML、XSL、jQuery、Ext等技术制作智慧医学网网站后台页面；</li>
-					<li>设计与制作智慧医学网商城及个人中心页面。</li>
+					<li>完成智慧医学网与医学考试在线网站后台前端部分；</li>
+					<li>设计与制作智慧医学网商城及个人中心页面；</li>
+					<li>设计与制作医学考试在线部分页面。</li>
 				</ul>
 			</description>
 		</job>
@@ -83,15 +93,16 @@
 	<skillSet>
 		<skills>
 			<title>Web前端</title>
-			<item>精通XHTML+CSS页面制作，兼容各种浏览器，对网页三层分离有深刻的理解，从用户行为和用户心理入手，设计用户界面，实现良好的用户体验方案；</item>
+			<item>精通XHTML+CSS页面制作，了解各种CSS技巧，代码兼容各种浏览器且可通过W3C认证；</item>
+			<item>对网页三层分离有深刻的理解，从用户行为和用户心理入手，设计用户界面，实现良好的用户体验方案；</item>
 			<item>精通XML与XSL，结合Xforms、XUL等技术制作语义化、易开发和可维护的前端系统；</item>
-			<item>数量站我JavaScript，熟练使用base2、jQuery、mootools等各种Ajax框架；</item>
+			<item>精通JavaScript，熟练使用base2、jQuery、mootools等各种框架，了解Ajax原理。</item>
 			<item>熟练使Photoshop、Fireworks等制图软件；</item>
 		</skills>
 		<skills>
 			<title>Web后端</title>
-			<item>了解REST网站架构；</item>
-			<item>精通ASP，熟练JSP，建设MVC结构的网站；</item>
+			<item>了解REST网站模式，设计面向资源的网站架构；</item>
+			<item>精通ASP，熟练JSP，建设MVC结构的数据库网站；</item>
 			<item>熟练使用Linux，对Linux有浓厚的兴趣，可在Linux下进行工作，搭建各种服务器。</item>
 		</skills>
 		<skills>
@@ -111,6 +122,6 @@
 		<para></para>
 	</legalnotice>
 	</copyright>
-	<lastUpdate>2008/12/18</lastUpdate>
+	<lastUpdate>2008/12/23</lastUpdate>
 </resume>
 

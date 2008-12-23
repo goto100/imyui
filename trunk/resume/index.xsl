@@ -12,6 +12,8 @@
 	<xsl:apply-templates select="header" />
 	<h2>求职意向</h2>
 	<xsl:apply-templates select="/resume/objective" />
+	<h2>自我点评</h2>
+	<xsl:apply-templates select="/resume/selfAssessment" />
 	<h2>专业资格与技能</h2>
 	<xsl:apply-templates select="skillSet" />
 	<h2>工作经验</h2>
@@ -20,6 +22,8 @@
 	<p class="note">项目详情请访问 <a href="../works/index.xml">http://www.imyui.cn/works/</a>。</p>
 	<ul>
 		<xsl:for-each select="document('../works/index.xml')/works/item">
+			<xsl:sort select="period/from" order="descending" />
+			<xsl:sort select="period/to" />
 			<li>
 				<xsl:choose>
 					<xsl:when test="url"><a href="{url}"><strong><xsl:value-of select="name" /></strong></a></xsl:when>
@@ -47,7 +51,7 @@
 </div>
 </xsl:template>
 
-<xsl:template match="/resume/objective">
+<xsl:template match="/resume/objective | /resume/selfAssessment">
 	<xsl:copy-of select="*" />
 </xsl:template>
 

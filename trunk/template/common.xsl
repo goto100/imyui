@@ -84,9 +84,15 @@
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:text> </xsl:text>
+				<xsl:variable name="to">
+					<xsl:choose>
+						<xsl:when test="to"><xsl:value-of select="to" /></xsl:when>
+						<xsl:otherwise><xsl:value-of select="document('../works/now.asp')/now" /></xsl:otherwise>
+					</xsl:choose>
+				</xsl:variable>
 				<xsl:call-template name="ui:format-duration">
 					<xsl:with-param name="start" select="from" />
-					<xsl:with-param name="end" select="(to | document('../works/now.asp')/now)[1]" />
+					<xsl:with-param name="end" select="$to" />
 				</xsl:call-template>
 			</xsl:otherwise>
 		</xsl:choose>
