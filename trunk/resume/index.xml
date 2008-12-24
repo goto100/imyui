@@ -21,16 +21,11 @@
 	</header>
 
 	<objective>
-		<p>Web前端与JavaScript RIA设计与开发。</p>
+		<p>Web前端与JavaScript RIA与开发。</p>
 	</objective>
 
 	<selfAssessment>
-		<ul>
-			<li>4年多网站前端设计开发经验;</li>
-			<li>8年以上网龄，热爱互联网；</li>
-			<li>喜欢钻研，全面且深入理解技术；</li>
-			<li>热爱学习，热衷于各种新技术；</li>
-		</ul>
+		<p>本人对互联网和Web开发有着浓厚的兴趣，8年网龄和4年的Web开发实践经验。工作认真细致且追求完美，热衷于研究最新技术和标准，具有优秀的学习能力与创新能力。勇于挑战，深入每一个技术细节，全面掌握技术要点。</p>
 	</selfAssessment>
 	
 	<history>
@@ -93,11 +88,11 @@
 	<skillSet>
 		<skills>
 			<title>Web前端</title>
-			<item>精通XHTML+CSS页面制作，了解各种CSS技巧，代码兼容各种浏览器且可通过W3C认证；</item>
-			<item>对网页三层分离有深刻的理解，从用户行为和用户心理入手，设计用户界面，实现良好的用户体验方案；</item>
+			<item>精通XHTML与CSS页面制作，了解各种CSS技巧，代码兼容各种浏览器且可通过W3C认证，对网页三层分离有深刻的理解；</item>
+			<item>从用户行为和用户心理入手，设计用户界面，实现良好的用户体验方案；</item>
 			<item>精通XML与XSL，结合Xforms、XUL等技术制作语义化、易开发和可维护的前端系统；</item>
-			<item>精通JavaScript，熟练使用base2、jQuery、mootools等各种框架，了解Ajax原理。</item>
-			<item>熟练使Photoshop、Fireworks等制图软件；</item>
+			<item>精通JavaScript，理解Ajax原理，可使用各种框架开发富客户端应用；</item>
+			<item>熟练使Photoshop、Fireworks等制图软件，对网页布局与色彩应用有一定经验。</item>
 		</skills>
 		<skills>
 			<title>Web后端</title>
