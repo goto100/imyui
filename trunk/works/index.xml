@@ -28,7 +28,7 @@
 		</period>
 		<name>XSLUI</name>
 		<picture src="images/xslui.png" />
-		<url>http://xslui.googlecode.com</url>
+		<url>xslui/</url>
 		<description>
 			<p>可<a href="http://xslui.googlecode.com" rel="external">通过Google Code托管查看此项目</a>最新代码。</p>
 			<p>XSLUI是一个将XML源文件转换为html的XSL库，它包括以下特性：</p>
