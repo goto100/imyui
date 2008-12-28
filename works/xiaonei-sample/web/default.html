@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>客户信息列表</title>
+<script type="text/javascript" src="script/base2-dom-fp.js"></script>
+<script type="text/javascript" src="script/default.js"></script>
+<link href="style/default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="customers">
+<div id="header">
+	<p id="user">张鹏(peng.zhang),你好 <a href="#">退出</a></p>
+</div>
+<div id="main">
+	<div id="sidebar">
+		<dl id="nav">
+			<dt>系统管理</dt>
+			<dd><a href="#">参数设定</a></dd>
+			<dt>权限管理</dt>
+			<dd><a href="#">操作员列表</a></dd>
+			<dd><a href="#">新增操作员</a></dd>
+			<dt>客户管理</dt>
+			<dd class="actived"><a href="#">客户信息列表</a></dd>
+			<dd><a href="#">新增客户</a></dd>
+			<dt>广告位管理</dt>
+			<dd><a href="#">广告位列表</a></dd>
+			<dd><a href="#">新增广告位</a></dd>
+			<dt>数据报表</dt>
+			<dd><a href="#">报表中心</a></dd>
+			<dd><a href="#">新增报表</a></dd>
+			<dt>财务管理</dt>
+			<dd><a href="#">充值操作</a></dd>
+			<dd><a href="#">帐户查询</a></dd>
+			<dt>操作日志</dt>
+			<dd><a href="#">操作记录</a></dd>
+		</dl>
+	</div>
+	<div id="content">
+		<h1>客户信息列表</h1>
+		<form id="customers-search" class="box" action="#">
+			<ul>
+				<li><label class="input"><strong>客户名称中包含：</strong><input name="customer-name-key" type="text" /></label></li>
+				<li><label class="input"><strong>所属销售员：</strong><input type="text" /></label></li>
+				<li>
+					<label class="select1"><strong>客户有效性：</strong><select>
+						<option>有效</option>
+						<option>失效</option>
+					</select></label>
+				</li>
+				<li><label class="balance input"><strong>余额：</strong><input type="text" /></label><label class="balance input"><em>至</em><input type="text" /></label></li>
+				<li>
+					<label class="select1"><strong>客户状态：</strong><select>
+						<option>正常</option>
+						<option>暂停</option>
+					</select></label>
+				</li>
+			</ul>
+			<input type="submit" class="submit button" value="查询" />
+		</form>
+		<div id="customers-list" class="box">
+			<table class="datagrid">
+				<thead>
+					<tr>
+						<th class="selection" scope="col"><input type="checkbox" title="全选" /></th>
+						<th scope="col">客户名称</th>
+						<th scope="col">所属销售</th>
+						<th scope="col">余额</th>
+						<th scope="col">有效性</th>
+						<th scope="col">状态</th>
+						<th scope="col">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="odd normal valid customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">有效</td>
+						<td class="status">正常</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="even paused invalid customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">失效</td>
+						<td class="status">暂停</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="odd valid paused customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">有效</td>
+						<td class="status">暂停</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="even invalid normal customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">失效</td>
+						<td class="status">正常</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="odd valid paused customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">有效</td>
+						<td class="status">暂停</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="even invalid normal customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">失效</td>
+						<td class="status">正常</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="odd valid paused customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">有效</td>
+						<td class="status">暂停</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="even invalid normal customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">失效</td>
+						<td class="status">正常</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="odd valid paused customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">有效</td>
+						<td class="status">暂停</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+					<tr class="even invalid normal customer">
+						<td class="selection"><input type="checkbox" /></td>
+						<th class="name" scope="row"><a href="#">蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛蒙牛</a></th>
+						<td class="saler">孙学风</td>
+						<td class="balance">&yen;1,000.00</td>
+						<td class="validity">失效</td>
+						<td class="status">正常</td>
+						<td class="operations">
+							<ul>
+								<li><a href="#">修改资料</a></li>
+								<li><a href="#">充值</a></li>
+								<li><a href="#">投放广告</a></li>
+								<li><a href="#">余额明细</a></li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="selection">选中 <a href="#valid">生效</a> <a href="#invalid">失效</a> <a href="#paused">暂停</a> <a href="#normal">恢复正常</a> <a href="#">删除</a></p>
+			<p class="pagebar">共4页 共38条 <a class="actived" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">下一页</a> <a href="#">最后页</a></p>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p id="copyright">千橡公司 @ 2008</p>
+	<p id="about"><a href="#">校内网</a> | <a href="#">关于</a> | <a href="#">帮助</a></p>
+</div>
+</body>
+</html>

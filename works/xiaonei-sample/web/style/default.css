@@ -1,0 +1,217 @@
+@import url("reset.css");
+
+body {
+	margin: 0 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a {
+	color: #015EAB;
+	text-decoration: none;
+}
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+strong {
+	font-weight: bold;
+}
+input.button {
+	width: 50px;
+	height: 22px;
+	color: #FFF;
+	background-color: #3C5888;
+	border-width: 1px;
+	border-style: solid;
+	border-top-color: #D8DEEA;	
+	border-right-color: #0F1F5B;	
+	border-bottom-color: #0F1F5B;	
+	border-left-color: #D8DEEA;	
+}
+
+table.datagrid {
+	border-top: 1px solid #D8DEEA;
+	border-left: 1px solid #D8DEEA;
+}
+table.datagrid tr {
+	line-height: 15px;
+}
+table.datagrid th,
+table.datagrid td {
+	padding: 5px;
+	border: 1px solid #D8DEEA;
+}
+table.datagrid thead tr {
+	background-color: #F7F7F7;
+}
+table.datagrid thead th {
+	text-align: center;
+	font-weight: bold;
+}
+table.datagrid thead th.selection {
+	width: 13px;
+}
+table.datagrid .selection input {
+	width: 13px;
+	height: 13px;
+}
+table.datagrid tbody td.operations {
+	text-align: center;
+}
+table.datagrid tbody td.operations li {
+	display: inline;
+}
+
+div.box,
+form.box {
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid #CFCFCF;
+}
+*html form.box {
+	margin-left: 7px;
+}
+
+
+#header {
+	height: 35px;
+	margin-bottom: 10px;
+	background: url(res/header.gif) no-repeat top left;
+}
+#main {
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+#sidebar {
+	float: left;
+	width: 139px;
+	margin-right: -3px;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+#content {
+	margin-left: 140px;
+	padding: 20px;
+	border-top: 1px solid #CCC;
+}
+#footer {
+	clear: both;
+	padding: 7px;
+	border-top: 1px solid #B8E4D9;
+}
+
+
+
+#user {
+	float: right;
+	padding-right: 15px;
+	color: #FFF;
+	line-height: 35px;
+	background: url(res/header.gif) no-repeat right top;
+}
+#user a {
+	margin-left: 15px;
+	color: #C2CDDE;
+}
+#nav {
+	background-color: #F7F7F7;
+}
+#nav dt {
+	padding-left: 10px;
+	line-height: 32px;
+	font-weight: bold;
+	border-top: 1px solid #CCC;
+}
+#nav dd {
+	padding-left: 10px;
+	line-height: 28px;
+	border-top: 1px solid #F1F1F1;
+}
+#nav dd.actived {
+	background-color: #3C5888;
+}
+#nav dd.actived a {
+	color: #FFF;
+}
+#copyright {
+	float: left;
+	color: #808080;
+}
+#about {
+	float: right;
+}
+
+#customers-search {
+	height: 80px;
+}
+#customers-search input.submit {
+	float: left;
+	margin: 35px 0 0 20px;
+}
+#customers-search ul {
+	float: left;
+	width: 560px;
+}
+#customers-search li {
+	float: left;
+	width: 280px;
+	color: #808080;
+	line-height: 30px;
+}
+#customers-search label em,
+#customers-search label strong {
+	margin: 0 5px;
+	font-weight: bold;
+}
+#customers-search label strong {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+#customers-search label.input input,
+#customers-search label.select1 select {
+	width: 140px;
+}
+#customers-search label.balance input {
+	width: 50px;
+}
+
+#customers-list table {
+	width: 99%;
+}
+#customers-list table td.saler,
+#customers-list table td.balance,
+#customers-list table td.validity,
+#customers-list table td.status {
+	text-align: right;
+}
+#customers-list table td.status {
+	color: #F00;
+}
+#customers-list tr.invalid td.validity,
+#customers-list tr.paused td.status {
+	font-weight: bold;
+}
+
+#customers-list p.selection {
+	display: inline-block;
+	margin-top: 10px;
+	width: 49%;
+}
+#customers-list p.pagebar {
+	display: inline-block;
+	margin-top: 10px;
+	width: 49%;
+	text-align: right;
+}
+*html #customers-list p.selection,
+*html #customers-list p.pagebar {
+	display: inline;
+}
+*+html #customers-list p.selection,
+*+html #customers-list p.pagebar {
+	display: inline;
+}
