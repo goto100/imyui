@@ -3,12 +3,16 @@
 import re
 import pysvn
 
-client = pysvn.Client()
+def ssl_server_trust_prompt( trust_dict ):
+    return True, 10, False
 
+client = pysvn.Client()
+client.callback_ssl_server_trust_prompt = ssl_server_trust_prompt
 
 def processCss(path):
 	def processStr(m):
 		fileName = m.group(1)
+		print fileName, ":", client.log(fileName)['revision']
 		str = '/* start file of ' + fileName + ', import by ' + path + ' */\n'
 		str += processCss(fileName)
 		str += '/* end file of ' + fileName + ' */'
