@@ -1,0 +1,50 @@
+#news th.no{width:5%;}
+#news th.title{width:66%}
+#news th.time{width:14%;}
+#news th.comment{width:5%;}
+#news th.count{width:8%;}
+
+body.news col.no {}
+body.news col.title {text-align:left;}
+body.news col.time {text-align:left;}
+body.news col.comment {}
+body.news col.count {}
+
+#newsspecial th.no{width:5%;}
+#newsspecial th.title{width:74%}
+#newsspecial th.date{width:14%;}
+#newsspecial th.click{width:5%;}
+#newsspecial col.no{}
+#newsspecial col.title{text-align:left;}
+#newsspecial col.date{}
+#newsspecial col.click{}
+
+form#newsform{width:100%;}
+form#newsform select#catename{width:15%;}
+form#newsform input#newstitle{width:80%;margin:5px;}
+form#newsform input#newsfrom{width:30%;margin:5px;}
+form#newsform input#newsurl{width:50%;margin:5px;}
+form#newsform textarea#newsintro{width:98%;height:60px;font-size:14px;}
+form#newsform textarea#newscontent{width:98%;height:300px;font-size:14px;}
+form#newsform iframe#newsupfile{width:80%;height:22px;border-width:0;}
+
+form#newsform fieldset#config{text-align:left;}
+form#newsform fieldset#title{text-align:left;}
+form#newsform fieldset#from{text-align:left;}
+form#newsform fieldset#intro{text-align:left;}
+form#newsform fieldset#content{text-align:left;}
+form#newsform fieldset#upload{text-align:left;}
+
+fieldset#postcomment{}
+fieldset#postcomment span.login{display:block;border-bottom:1px dashed #f90;margin:0;padding:5px;}
+fieldset#postcomment textarea#message{display:block;width:96%;height:100px;margin:1%;padding:0;}
+
+table#SpecialCate th#no{width:5%;}
+table#SpecialCate th#title{width:71%}
+table#SpecialCate th#date{width:14%;}
+table#SpecialCate th#count{width:8%;}
+
+table#SpecialCate td.no{}
+table#SpecialCate td.title{text-align:left;}
+table#SpecialCate td.date{text-align:left;}
+table#SpecialCate td.count{}

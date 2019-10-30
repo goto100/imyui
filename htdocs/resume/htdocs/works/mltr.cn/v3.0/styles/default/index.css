@@ -1,0 +1,24 @@
+#Content {
+	width:100%;
+}
+#index {
+	height:400px;
+}
+#Page-news #index {	background-color:#84814a; }
+#Page-info #index {	background-color:#bdbe70; }
+#Page-album #index {	background-color:#adcfce; }
+#Page-photo #index {	background-color:#7b7663; }
+#Page-music #index {	background-color:#b56d00; }
+#Page-download #index {	background-color:#b54918; }
+#Page-shop #index {	background-color:#786F5E; }
+#index img.index {
+	float:left;
+}
+#index ul {
+	width:300px;
+	height:380px;
+	float:right;
+	padding:10px 5px;
+	background-color:#f7ebec;
+	list-style-type:none;
+}

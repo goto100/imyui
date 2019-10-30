@@ -1,0 +1,479 @@
+/* Global */
+html {
+	margin:0;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background:#fef3cd url(images/Background.png) repeat-x top center;
+}
+body * {
+	margin:0;
+	padding:0;
+}
+a {
+	color:#09f;
+	text-decoration:none;
+}
+a:hover {
+	color:#f90;
+	text-decoration:underline;
+}
+h1 {
+	margin:40px;
+	margin-left:160px;
+	font-size:28pt;
+	color:#69390b;
+}
+
+/* Layout */
+#Wrapper {
+	background:url(images/Wrapper.png) no-repeat top left;
+}
+#InnerWrapper {
+	background:url(images/InnerWrapper.png) no-repeat left bottom;
+}
+#InnerWrapper2 {
+	width:950px;
+	height:450px;
+	height:inherit!important;
+	min-height:450px;
+}
+#Header {
+}
+#Content {
+	display:inline;
+	float:left;
+	width:580px;
+	margin-left:180px;
+}
+
+#Sidebar {
+	float:right;
+	margin-right:20px;
+	width:123px;
+}
+#Footer {
+	clear:both;
+	padding-top:80px!important;
+	padding-top:20px;
+	text-indent:-9999px;
+}
+
+#languageBar {
+	width:940px;
+	height:26px;
+}
+#languageBar dl {
+	float:right;
+	width:280px;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+}
+#languageBar dt {
+	display:inline;
+	width:109px;
+	height:26px;
+	float:left;
+}
+#languageBar dd {
+	display:inline;
+	float:left;
+	text-indent:-9999px;
+	border-left:1px solid #fff;
+}
+#languageBar dd a {
+	display:block;
+	height:26px;
+	float:left;
+	outline:none;
+}
+#languageBar-en a {
+	width:57px;
+	background:url(images/languageBar-en.png) no-repeat center 13px;
+}
+#languageBar-de a {
+	width:60px;
+	background:url(images/languageBar-de.png) no-repeat center 13px;
+}
+#languageBar-zh a {
+	width:50px;
+	background:url(images/languageBar-zh.png) no-repeat center 13px;
+}
+#logo {
+	float:left;
+	margin-top:49px;
+	border-top:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+#nav {
+	float:left;
+	margin-top:21px;
+}
+#nav li {
+	display:inline;
+	float:left;
+	width:94px;
+	text-indent:-9999px;
+}
+#nav li a {
+	display:block;
+	margin-top:28px;
+	height:72px;
+	outline:none;
+	border:1px solid #fff;
+}
+
+
+#nav-home a:hover,
+#page-home #nav-home a,
+#nav-news a:hover,
+#page-news #nav-news a,
+#nav-products a:hover,
+#page-products #nav-products a,
+#nav-contact a:hover,
+#page-contact #nav-contact a,
+#nav-aboutus a:hover,
+#page-aboutus #nav-aboutus a,
+#nav-sitemap a:hover,
+#page-sitemap #nav-sitemap a,
+#nav-thanksto a:hover,
+#page-thanksto #nav-thanksto a,
+#nav-xxx a:hover,
+#page-xxx #nav-xxx a {
+	margin-top:0;
+	height:100px;
+}
+
+
+
+body.en #nav-home a {
+	background:url(images/nav-home.en.png) no-repeat left top;
+}
+body.en #nav-home a:hover,
+#page-home.en #nav-home a {
+	background:url(images/nav-home.en.png) no-repeat left -72px;
+}
+body.en #nav-news a {
+	background:url(images/nav-news.en.png) no-repeat left top;
+}
+body.en #nav-news a:hover,
+#page-news.en #nav-news a {
+	background:url(images/nav-news.en.png) no-repeat left -72px;
+}
+body.en #nav-products a {
+	background:url(images/nav-products.en.png) no-repeat left top;
+}
+body.en #nav-products a:hover,
+#page-products.en #nav-products a {
+	background:url(images/nav-products.en.png) no-repeat left -72px;
+}
+body.en #nav-contact a {
+	background:url(images/nav-contact.en.png) no-repeat left top;
+}
+body.en #nav-contact a:hover,
+#page-contact.en #nav-contact a {
+	background:url(images/nav-contact.en.png) no-repeat left -72px;
+}
+body.en #nav-aboutus a {
+	background:url(images/nav-aboutus.en.png) no-repeat left top;
+}
+body.en #nav-aboutus a:hover,
+#page-aboutus.en #nav-aboutus a {
+	background:url(images/nav-aboutus.en.png) no-repeat left -72px;
+}
+body.en #nav-sitemap a {
+	background:url(images/nav-sitemap.en.png) no-repeat left top;
+}
+body.en #nav-sitemap a:hover,
+#page-sitemap.en #nav-sitemap a {
+	background:url(images/nav-sitemap.en.png) no-repeat left -72px;
+}
+body.en #nav-thanksto a {
+	background:url(images/nav-thanksto.en.png) no-repeat left top;
+}
+body.en #nav-thanksto a:hover,
+#page-thanksto.en #nav-thanksto a {
+	background:url(images/nav-thanksto.en.png) no-repeat left -72px;
+}
+body.en #nav-xxx a {
+	background:url(images/nav-xxx.en.png) no-repeat left top;
+}
+body.en #nav-xxx a:hover,
+page-xxx.en #nav-xxx a {
+	background:url(images/nav-xxx.en.png) no-repeat left -72px;
+}
+
+
+body.de #nav-home a {
+	background:url(images/nav-home.de.png) no-repeat left top;
+}
+body.de #nav-home a:hover,
+#page-home.de #nav-home a {
+	background:url(images/nav-home.de.png) no-repeat left -72px;
+}
+body.de #nav-news a {
+	background:url(images/nav-news.de.png) no-repeat left top;
+}
+body.de #nav-news a:hover,
+#page-news.de #nav-news a {
+	background:url(images/nav-news.de.png) no-repeat left -72px;
+}
+body.de #nav-products a {
+	background:url(images/nav-products.de.png) no-repeat left top;
+}
+body.de #nav-products a:hover,
+#page-products.de #nav-products a {
+	background:url(images/nav-products.de.png) no-repeat left -72px;
+}
+body.de #nav-contact a {
+	background:url(images/nav-contact.de.png) no-repeat left top;
+}
+body.de #nav-contact a:hover,
+#page-contact.de #nav-contact a {
+	background:url(images/nav-contact.de.png) no-repeat left -72px;
+}
+body.de #nav-aboutus a {
+	background:url(images/nav-aboutus.de.png) no-repeat left top;
+}
+body.de #nav-aboutus a:hover,
+#page-aboutus.de #nav-aboutus a {
+	background:url(images/nav-aboutus.de.png) no-repeat left -72px;
+}
+body.de #nav-sitemap a {
+	background:url(images/nav-sitemap.de.png) no-repeat left top;
+}
+body.de #nav-sitemap a:hover,
+#page-sitemap.de #nav-sitemap a {
+	background:url(images/nav-sitemap.de.png) no-repeat left -72px;
+}
+body.de #nav-thanksto a {
+	background:url(images/nav-thanksto.de.png) no-repeat left top;
+}
+body.de #nav-thanksto a:hover,
+#page-thanksto.de #nav-thanksto a {
+	background:url(images/nav-thanksto.de.png) no-repeat left -72px;
+}
+body.de #nav-xxx a {
+	background:url(images/nav-xxx.de.png) no-repeat left top;
+}
+body.de #nav-xxx a:hover,
+page-xxx.de #nav-xxx a {
+	background:url(images/nav-xxx.de.png) no-repeat left -72px;
+}
+
+
+
+
+#subNav {
+	height:29px;
+	clear:both;
+}
+#subNav ul {
+	display:none;
+	height:29px;
+	width:657px;
+	margin-left:282px;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #fff;
+	background:url(images/subNav.png) no-repeat center left;
+}
+#subNav li {
+	float:left;
+	padding-left:25px;
+	font-size:9pt;
+	color:#fff;
+	line-height:28px;
+	background:url(images/subNav-item.gif) no-repeat 15px center;
+	list-style:none;
+}
+#subNav li a {
+	color:#fff;
+}
+
+
+
+
+#quickBar {
+	float:right;
+	width:123px;
+	background:url(images/quickBar.png) no-repeat bottom center;
+}
+#quickBar ul {
+	padding:30px 0;
+}
+#quickBar li {
+	height:17px;
+	height:inherit!important;
+	min-height:17px;
+	margin:10px 0;
+	padding-left:26px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background:url("images/quickBar item.png") no-repeat 8px center;
+	list-style-type:none;
+}
+#quickBar li a {
+	color:#743400;
+}
+body.en #quickBar-news {
+	background:url(images/quickBar-news.en.png) no-repeat top center;
+}
+body.en #quickBar-products {
+	background:url(images/quickBar-products.en.png) no-repeat top center;
+}
+body.en #quickBar-contact {
+	background:url(images/quickBar-contact.en.png) no-repeat top center;
+}
+body.en #quickBar-aboutus {
+	background:url(images/quickBar-aboutus.en.png) no-repeat top center;
+}
+body.de #quickBar-news {
+	background:url(images/quickBar-news.de.png) no-repeat top center;
+}
+body.de #quickBar-products {
+	background:url(images/quickBar-products.de.png) no-repeat top center;
+}
+body.de #quickBar-contact {
+	background:url(images/quickBar-contact.de.png) no-repeat top center;
+}
+body.de #quickBar-aboutus {
+	background:url(images/quickBar-aboutus.de.png) no-repeat top center;
+}
+
+#Content a {
+	color:#000;
+}
+#Content p,
+#Content li {
+	margin-top:1em;
+	text-align:justify;
+	color:#666;
+}
+#Content dt {
+	float:left;
+	width:200px;
+}
+#Content dd {
+	margin-left:200px;
+}
+
+
+#Content form.default {
+	margin:5px;
+}
+#Content form.default fieldset {
+	padding:5px 10px;
+	margin:5px auto;
+	border:1px solid #f90;
+}
+#Content form.default legend {
+	padding:0 5px;
+	font-weight:bolder;
+}
+#Content form.default label {
+	float:left;
+	margin-right:5px;
+	font-size:10pt;
+}
+#Content form {
+	margin:10px auto;
+	text-align:left;
+}
+#Content form div.formItem {
+	margin:5px auto;
+}
+#Content form label {
+	display:block;
+	float:left;
+	text-align:right;
+	width:20%;
+}
+#Content form textarea {
+	width:78%;
+}
+#Content form input.submit {
+	float:right;
+	padding:5px 10px;
+}
+
+
+#Content div.pagebar {
+	height:30px;
+}
+#Content div.pagebar a {
+	line-height:24px;
+	color:#000;
+	font-weight:bolder;
+	text-decoration:none;
+}
+#Content div.pagebar ul {
+	float:left;
+}
+#Content div.pagebar li, #Content div.pagebar p {
+	display:inline;
+	float:left;
+	width:30px;
+	line-height:24px;
+}
+#Content div.pagebar li.active {
+	font-size:14px;
+}
+#Content div.pagebar p.total {
+	float:right;
+	width:60px;
+	font-weight:bolder;
+}
+
+
+#Content table.list {
+	width:100%;
+	border:1px solid #fff;
+	border-collapse:collapse;
+}
+#Content table.list thead, #Content table.list tfoot {
+	border:1px solid #fff;
+}
+#Content table.list thead th, #Content table.list tfoot td {
+	padding:5px;
+}
+#Content table.list tr {
+	height:2em;
+}
+
+#page-home #news {
+	height:124px;
+	/* background:url(images/news.png) no-repeat right bottom; */
+}
+#page-home #news li {
+	padding-left:20px;
+	list-style:none;
+	background:url(images/news-item.png) no-repeat left center;
+}
+
+#page-home #products {
+	padding-top:50px;
+}
+#page-home #products .product {
+	width:280px;
+	float:left;
+}
+#page-home #products-new {
+	background:url(images/products-new.png) no-repeat 110px top;
+}
+#page-home #products-best {
+	background:url(images/products-best.png) no-repeat 110px top;
+}
+#page-home #products .product img {
+	float:left;
+	border:5px solid #ecd2a0;
+}
+#page-home #products .product p {
+	margin:40px 0 0 10px;
+	float:left;
+	font-size:14px;
+}

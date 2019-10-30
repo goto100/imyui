@@ -1,0 +1,24 @@
+p.goodscommenturl {
+	display:inline;
+	float:right;
+	margin:10px 120px 0 0;
+}
+p.buythis {
+	float:right;
+	margin-top:-16px;
+}
+
+body.affiche {
+	background-color:#ddd;
+}
+body.affiche h1 {
+	border-bottom:1px solid #f90;
+	font-size:14px;
+}
+body.affiche p.time {
+	text-align:right;
+}
+div.plugin_help h4 img {
+	margin:10px;
+	clear:both;
+}

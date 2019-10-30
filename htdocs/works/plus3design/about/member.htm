@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../style/common.css" rel="stylesheet" type="text/css" />
+<link href="style/common.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>工作组成员介绍</title>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="id" type="text" value="about" -->
+</head>
+
+<body id="page-about">
+<div id="Header">
+	<a href="../news.htm"><img src="../images/welcome.jpg" alt="三和中广网站正式开通" id="welcome" /></a>
+	<ul id="navbar">
+		<li id="navbar-main"><a href="../index.htm" title="首页">首页</a></li>
+		<li id="navbar-about"><a href="../about/" title="关于我们">关于我们</a></li>
+		<li id="navbar-portfolio"><a href="../portfolio/" title="作品">作品</a></li>
+		<li id="navbar-download"><a href="../download/" title="下载">下载</a></li>
+		<li id="navbar-cilent"><a href="../cilent/" title="客户">客户</a></li>
+		<li id="navbar-service"><a href="../service/" title="服务">服务</a></li>
+		<li id="navbar-contact"><a href="../contact/" title="联系">联系</a></li>
+	</ul>
+	
+	<!-- InstanceBeginEditable name="nav2" -->
+	<!-- InstanceEndEditable --></div>
+<div id="ContentWrapper">
+<div id="Sidebar">
+<!-- InstanceBeginEditable name="Sidebar" -->
+<h3><img src="images/Sidebar title.jpg" alt="About Us" /></h3>
+<ul id="navs" class="list">
+	<li><a href="index.htm"><img src="images/navs-company.gif" /></a></li>
+	<li><a href="member.htm"><img src="images/navs-member.gif" /></a></li>
+</ul>
+<!-- InstanceEndEditable -->
+</div>
+<div id="Content">
+<!-- InstanceBeginEditable name="Content" -->
+<div>
+	<h2>Our <em>Members</em></h2>
+	<ul id="members">
+		<li id="members-doukai"><a href="#">窦楷</a></li>
+		<li id="members-laoli"><a href="#">李铎</a></li>
+		<li id="members-xiaoming"><a href="#">萧鸣</a></li>
+		<li id="members-jinyuan"><a href="#">靳园</a></li>
+		<li id="members-chenbaoqi"><a href="#">陈宝麒</a></li>
+	</ul>
+	<ul id="members-introduce">
+		<li id="members-doukai-introduce">
+			<h3>窦楷</h3>
+			<p>从业时间10年</p>
+			<p>职位： 创意总监</p>
+			<p>毕业于加拿大温哥华AI COLLEGE ,于2005年创建三合中广动漫设计有限公司,影视动画导演.影视动画导演。</p>
+		</li>
+		<li id="members-laoli-introduce">
+			<h3>李铎</h3>
+			<p>从业时间3年</p>
+			<p>职位： Visual Effect</p>
+			<p>毕业于天津大学工业设计系，影视动画特效设计师 工作范围：动画渲染，影视动画特效后期合成。</p>
+		</li>
+		<li id="members-xiaoming-introduce">
+			<h3>萧鸣</h3>
+			<p>从业时间2年</p>
+			<p>职位 concept art designer</p>
+			<p>毕业于加拿大温哥华CENTURY COLLEGE 影视动画概念设计，平面广告设计，影视剧艺术创意</p>
+		</li>
+		<li id="members-jinyuan-introduce">
+			<h3>靳园</h3>
+			<p>从业时间3年</p>
+			<p>职位： Animator</p>
+			<p>毕业于天津电子信息学院，视频后期特效包装，动画设计师、剪辑师。</p>
+		</li>
+		<li id="members-chenbaoqi-introduce">
+			<h3>陈宝麒</h3>
+			<p>从业时间: 8年</p>
+			<p>职位： 业务经理 </p>
+			<p>影视剧开发，前期策划。</p>
+		</li>
+	</ul>
+<script language="javascript">
+var eleMembers = document.getElementById("members");
+var eleMembersIntroduce = document.getElementById("members-introduce");
+var eleMembersIntroduceLis = eleMembersIntroduce.getElementsByTagName("li");
+for (var i = 0; i < eleMembersIntroduceLis.length; i++) {
+	eleMembersIntroduceLis[i].style.display = "none";
+}
+var eleLis = eleMembers.getElementsByTagName("li");
+for (var i = 0; i < eleLis.length; i++) {
+	eleLis[i].getElementsByTagName("a")[0].onmouseover = function() {
+		document.getElementById(this.parentNode.id + "-introduce").style.display = "";
+	}
+	eleLis[i].getElementsByTagName("a")[0].onmouseout = function() {
+		document.getElementById(this.parentNode.id + "-introduce").style.display = "none";
+	}
+}
+</script>
+</div>
+<!-- InstanceEndEditable -->
+</div>
+<div class="clear"></div>
+</div>
+<div id="Footer">
+	<p><a href="../admin.asp">&copy;</a> Copyright 2005 - 2006 . plus3 design . All Right Reserved. <a href="http://www.miibeian.gov.cn">津ICP备06008731号</a></p>
+</div>
+</body>
+<!-- InstanceEnd --></html>

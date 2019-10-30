@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>A Table Example</title>
+<style type="text/css">
+	#table {
+		width:100%;
+	}
+	thead {
+		background-color:#ddd;
+	}
+	tfoot {
+		background-color:#ddd;
+		text-align:right;
+	}
+	tbody {
+		
+	}
+	col.id {
+		background-color:#f90;
+		width:5%;
+	}
+	col.name {
+		width:20%;
+	}
+	col.address {
+		width:50%;
+	}
+	col.phone {
+		width:20%;
+	}
+	col.age {
+		width:5%;
+	}
+</style>
+</head>
+
+<body>
+<table summary="This is a table example from ScYui." id="table">
+	<caption>A Table Example</caption>
+	<colgroup>
+		<col class="id" />
+		<col span="2" class="name" />
+		<col class="address" />
+		<col span="2" class="phone" />
+		<col class="age" />
+	</colgroup>
+	<thead>
+		<tr>
+				<th rowspan="2" scope="col" abbr="ID">ID</th>
+				<th colspan="2" scope="col" abbr="Name">Name</th>
+				<th rowspan="2" scope="col" abbr="Address">Address</th>
+				<th colspan="2" scope="col" abbr="Phone">Phone</th>
+				<th rowspan="2" scope="col" abbr="Age">Age</th>
+		</tr>
+		<tr>
+				<th scope="col" abbr="First Name">FN</th>
+				<th scope="col" abbr="Last Name">LN</th>
+				<th scope="col" abbr="Home Phone">HP</th>
+				<th scope="col" abbr="Office Phone">OP</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th colspan="7">Total:9</th>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+				<th scope="row">1</th>
+				<td>Scale</td>
+				<td>Yui</td>
+				<td>China</td>
+				<td>88882222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">2</th>
+				<td>Ghost</td>
+				<td>Ghost</td>
+				<td>Japan</td>
+				<td>88882222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">3</th>
+				<td>Wang</td>
+				<td>Wang</td>
+				<td>Korea</td>
+				<td>33888222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">4</th>
+				<td>Wang</td>
+				<td>Wang</td>
+				<td>Korea</td>
+				<td>33888222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">5</th>
+				<td>Wang</td>
+				<td>Wang</td>
+				<td>Korea</td>
+				<td>33888222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">6</th>
+				<td>Wang</td>
+				<td>Wang</td>
+				<td>Korea</td>
+				<td>33888222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">7</th>
+				<td>Wang</td>
+				<td>Wang</td>
+				<td>Korea</td>
+				<td>33888222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">8</th>
+				<td>Wang</td>
+				<td>Wang</td>
+				<td>Korea</td>
+				<td>33888222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+		<tr>
+				<th scope="row">9</th>
+				<td>Wang</td>
+				<td>Wang</td>
+				<td>Korea</td>
+				<td>33888222</td>
+				<td>88882222</td>
+				<td>21</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

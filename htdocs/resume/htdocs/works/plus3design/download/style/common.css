@@ -1,0 +1,15 @@
+.item {
+	float:left;
+	width:300px;
+	min-height:260px;
+}
+.item img {
+	padding:10px;
+	background:url("images/wallpaper .item img.png") no-repeat top left;
+}
+.item p {
+	font-size:9pt;
+}
+.item a {
+	color:#f90;
+}

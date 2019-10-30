@@ -1,0 +1,21 @@
+table#albumshow th#no{width:5%;}
+table#albumshow th#name{width:71%;}
+table#albumshow th#lyric{width:12%;}
+table#albumshow th#listen{width:12%;}
+
+table#albumshow td.no{}
+table#albumshow td.name{text-align:left;}
+table#albumshow td.lyric{}
+table#albumshow td.listen{}
+
+table#greatestshow th#no{width:5%;}
+table#greatestshow th#name{width:71%;}
+table#greatestshow th#lyric{width:12%;}
+table#greatestshow th#listen{width:12%;}
+
+table#greatestshow td.no{}
+table#greatestshow td.name{text-align:left;}
+table#greatestshow td.lyric{}
+table#greatestshow td.listen{}
+
+#epedit textarea {width:100%;height:500px;}

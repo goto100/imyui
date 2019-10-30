@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>XHTML 1.0 参考、示例与说明</title>
+<style type="text/css">
+<!--
+body{font-size:12pt;background-color:#ccc;}
+dd{}
+h1#e1,h1#e2,h1#e3,h1#e4,h1#e5,h1#e6,h1#e7,h1#e8,h1#e9,h1#e10,h1#e11,h1#e12,h1#e13{background-color:#000;color:#fff;}
+h2.h2{background-color:#333;color:#fff;}
+div.info{}
+dl.dl{}
+dt.example{}
+dd.example{background-color:#fff;border:1px solid #000;}
+dt.code{}
+dd.code{background-color:#fff;border:1px solid #000;padding:5px;}
+code.code{}
+-->
+</style>
+</head>
+
+<body>
+<h1 id="e1">基本标签</h1>
+<h2 class="h2">&lt;!DOCTYPE&gt;与&lt;html&gt;</h2>
+<dl>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;<br />
+		&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>严格遵照代码中的大小写。第一行代码必须在网页第一行，否则网页会出错。</dd>
+</dl>
+<h2 class="h2">&lt;h1&gt;至&lt;h6&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">
+		<h1>MLTR的全新专辑《Michael Learns To Rock》</h1>
+		<h2>MLTR的全新专辑《Michael Learns To Rock》</h2>
+		<h3>MLTR的全新专辑《Michael Learns To Rock》</h3>
+		<h4>MLTR的全新专辑《Michael Learns To Rock》</h4>
+		<h5>MLTR的全新专辑《Michael Learns To Rock》</h5>
+		<h6>MLTR的全新专辑《Michael Learns To Rock》</h6>
+	</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;h1&gt;MLTR的全新专辑《Michael Learns To Rock》&lt;/h1&gt;<br />
+&lt;h2&gt;MLTR的全新专辑《Michael Learns To Rock》&lt;/h2&gt;<br />
+&lt;h3&gt;MLTR的全新专辑《Michael Learns To Rock》&lt;/h3&gt;<br />
+&lt;h4&gt;MLTR的全新专辑《Michael Learns To Rock》&lt;/h4&gt;<br />
+&lt;h5&gt;MLTR的全新专辑《Michael Learns To Rock》&lt;/h5&gt;<br />
+&lt;h6&gt;MLTR的全新专辑《Michael Learns To Rock》&lt;/h6&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>标题1至标题6</dd>
+</dl>
+<h2 class="h2">&lt;p&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">
+	<p>今天，MLTR的全新专辑Michael Learns To Rock在丹麦正式发售。新专辑包含的10 首新歌，体现出他们用自己的方式, 诠释故事和陈述心灵感觉的美丽与变化过程。这是本非常专业的情感歌集!</p>
+	</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;p&gt;今天，MLTR的全新专辑Michael Learns To Rock在丹麦正式发售。新专辑包含的10 首新歌，体现出他们用自己的方式, 诠释故事和陈述心灵感觉的美丽与变化过程。这是本非常专业的情感歌集!&lt;/p&gt;</code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;br /&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">换行<br />（Inserts a single line break）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">换行&lt;br /&gt;（Inserts a single line break）</code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;hr /&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">
+	水平线<hr />（Defines a horizontal rule）
+	</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">水平线&lt;hr /&gt;（Defines a horizontal rule）</code>
+	</dd>
+</dl>
+<h1 id="e2">字符格式</h1>
+<h2 class="h2">&lt;b&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><b>粗体文本（Defines bold text）</b></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;b&gt;粗体文本（Defines bold text）&lt;/b&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>这不是W3C推荐使用的标签，推荐用&lt;strong&gt;&lt;/strong&gt;替换</dd>
+</dl>
+<h2 class="h2">&lt;i&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><i>文本为斜体（Defines italic text）</i></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;i&gt;文本为斜体（Defines italic text）&lt;/i&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>这不是W3C推荐使用的标签，推荐用&lt;em&gt;&lt;/em&gt;替换</dd>
+</dl>
+<h2 class="h2">&lt;em&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><em>文本为重要（Defines emphasized text）</em></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;em&gt;文本为重要（Defines emphasized text）&lt;/em&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>用此标签代替标签&lt;i&gt;</dd>
+</dl>
+<h2 class="h2">&lt;big&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><big>文本增大（Defines big text）</big></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;big&gt;文本增大（Defines big text）&lt;/big&gt;</code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;strong&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><strong>文本为非常重要（Defines strong text）</strong></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;strong&gt;文本为非常重要（Defines strong text）&lt;/strong&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>用此标签代替标签&lt;b&gt;</dd>
+</dl>
+<h2 class="h2">&lt;small&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><small>文本缩小（Defines small text）</small></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;small&gt;文本缩小（Defines small text）&lt;/small&gt;</code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;sup&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">Microsoft<sup>TM</sup>&nbsp;金龙玉<sup>注册商标</sup></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code">Microsoft&lt;sup&gt;TM&lt;/sup&gt;&amp;nbsp;金龙玉&lt;sup&gt;注册商标&lt;/sup&gt;
+	</dd>
+	<dt>说明:</dt>
+	<dd>文本上标</dd>
+</dl>
+<h2 class="h2">&lt;sub&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">水的化学式为：H<sub>2</sub>O</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code">水的化学式为：H&lt;sub&gt;2&lt;/sub&gt;O
+	</dd>
+	<dt>说明:</dt>
+	<dd>文本下标</dd>
+</dl>
+<h2 class="h2">&lt;bdo&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><bdo>（Defines the direction of text display）</bdo></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>？？</dd>
+</dl>
+<h1 id="e3">输出</h1>
+<h2 class="h2">&lt;pre&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><pre>预先格式（保留文件中空格的大小）（Defines preformatted text）</pre></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;code&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;<br />
+		&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;<br />
+		&lt;head&gt;<br />
+		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;</code></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code>&lt;code&gt;&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;&lt;br /&gt;<br />
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;&lt;br /&gt;<br />
+&amp;lt;head&amp;gt;&lt;br /&gt;<br />
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=utf-8&amp;quot; /&amp;gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>显示源码用</dd>
+</dl>
+<h2 class="h2">&lt;tt&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><tt>打印机字体（Defines teletype text）</tt></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;tt&gt;打印机字体（Defines teletype text）&lt;/tt&gt;</code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;kbd&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><kbd>键盘（Defines keyboard text）</kbd></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;kbd&gt;键盘（Defines keyboard text）&lt;/kbd&gt;</code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;dfn&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><dfn>定义（Defines?a definition term）</dfn></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;var&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><var>变数（Defines a variable）</var></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;samp&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><samp>样本（Defines sample computer code）</samp></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h1 id="e4">结构性定义</h1>
+<h2 class="h2">&lt;acronym&gt;</h2>
+<dl class="dl">
+	<dt>示例:</dt>
+	<dd class="example">
+	<acronym title="Michael Learns To Rock">MLTR</acronym>
+	</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;acronym title=&quot;Michael Learns To Rock&quot;&gt;MLTR&lt;/acronym&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>只取首字母的缩写词，在IE或Firefox中鼠标放在MLTR上就会弹出全称</dd>
+</dl>
+<h2 class="h2">&lt;abbr&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><abbr title="Thanks!">THX!</abbr></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">&lt;abbr title=&quot;Thanks!&quot;&gt;THX!&lt;/abbr&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>缩写，在IE中鼠标放在THX!上就不弹出全称，但Firefox可以</dd>
+</dl>
+<h2 class="h2">&lt;address&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">欢迎光临MLTR中文站<address>http://www.mltr.cn/</address></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">欢迎光临MLTR中文站&lt;address&gt;http://www.mltr.cn/&lt;/address&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>显示网络连接地址时用此标签</dd>
+</dl>
+<h2 class="h2">&lt;blockquote&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">官方原文如下:<blockquote>New chinese Michael Learns to Rock-site open!！ Thanks to everyone working with mltr.cn.<br />
+We haven't got a clue what it says - but shure looks nice.</blockquote></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code">官方原文如下:&lt;blockquote&gt;New chinese Michael Learns to Rock-site open!！ Thanks to everyone working with mltr.cn.&lt;br /&gt;<br />
+		We haven't got a clue what it says - but shure looks nice.&lt;/blockquote&gt;
+	</dd>
+	<dt>说明:</dt>
+	<dd>引文区块</dd>
+</dl>
+<h2 class="h2">&lt;q&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">乐队主唱Jascha说：<q>Love for you from me!</q></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">乐队主唱Jascha说：&lt;q&gt;Love for you from me!&lt;/q&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>引用短语</dd>
+</dl>
+<h2 class="h2">&lt;cite&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">官方原文如下:<cite>New chinese Michael Learns to Rock-site open!！ Thanks to everyone working with mltr.cn.<br />
+We haven't got a clue what it says - but shure looks nice.</cite></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code">官方原文如下:&lt;cite&gt;New chinese Michael Learns to Rock-site open!！ Thanks to everyone working with mltr.cn.&lt;br /&gt;<br />
+		We haven't got a clue what it says - but shure looks nice.&lt;/cite&gt;</code>
+	</dd>
+	<dt>说明:</dt>
+	<dd>较长的引文，但不是引文区块，是inline的</dd>
+</dl>
+<h2 class="h2">&lt;ins&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><ins>插入（Defines inserted text）</ins></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;del&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">官方更改部分行程<br />
+<del>07-10-2004 Jakarta, Indonesia 雅加达(印度尼西亚)</del>
+</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code">官方更改部分行程&lt;br /&gt;<br />
+		&lt;del&gt;07-10-2004 Jakarta, Indonesia 雅加达(印度尼西亚)&lt;/del&gt;
+	</dd>
+	<dt>说明:</dt>
+	<dd>删除线</dd>
+</dl>
+<h1 id="e5">链接</h1>
+<h2 class="h2">&lt;a&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><a href="#">链接（Defines an anchor）</a></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;link&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example"><link>资源参考？？（Defines a resource reference）</link></dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h1 id="e6">框架</h1>
+<p>无</p>
+<h1 id="e7">输入</h1>
+<h2 class="h2">&lt;form&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">定义表单（Defines a form）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;input /&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">定义输入域（Defines an input field）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;textarea&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">输入区换行方式（Defines a text area）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;button&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">按钮（Defines a push button）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;select&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">下拉式选单（Defines a selectable list）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;optgroup&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">选项组（Defines an option group）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;option&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">列表选项（Defines an item in a list box）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;label&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">标签（用于表单控制？）（Defines a label?for a form control）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">域与域标题</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">
+		<fieldset>
+			<legend>这是域标题（Defines a title in a fieldset）</legend>
+			<p>这是域内容（Defines a fieldset）</p>
+		</fieldset>
+	</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"> &lt;fieldset&gt;<br />
+&lt;legend&gt;这是域标题（Defines a title in a fieldset）&lt;/legend&gt;<br />
+&lt;p&gt;这是域内容（Defines a fieldset）&lt;/p&gt;<br />
+&lt;/fieldset&gt;</code>
+	</dd>
+</dl>
+<h1 id="e8">列举</h1>
+<h2 class="h2">无次序式列举</h2>
+<h2 class="h2">有次序式列举</h2>
+<h2 class="h2">定义式列举</h2>
+<h1 id="e9">图片</h1>
+<h2 class="h2">&lt;img /&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">图片（Defines an image）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;map&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">图片地图（Defines an image map）?</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h2 class="h2">&lt;area /&gt;</h2>
+<dl class="dl">
+	<dt class="example">示例:</dt>
+	<dd class="example">图片热点（Defines an area inside an image map）</dd>
+	<dt class="code">代码:</dt>
+	<dd class="code"><code class="code"></code>
+	</dd>
+</dl>
+<h1 id="e10">表格</h1>
+<h1 id="e11">样式</h1>
+<h1 id="e12">头信息</h1>
+<h1 id="e13">脚本、引用外部对象相关</h1>
+</body>
+</html>

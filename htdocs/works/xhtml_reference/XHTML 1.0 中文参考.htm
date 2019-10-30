@@ -1,0 +1,867 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>XHTML 1.0 中文参考</title>
+<style type="text/css">
+<!--
+table {
+	border: 1px solid #000000;
+	width: 500px;
+	background: #FFFFFF;
+	color: #000000;
+	margin: auto;
+	font-size: 12px;
+}
+td {
+	height: 20px;
+	padding: 4px;
+}
+body {
+	background: #EAEAEA;
+	width: 778px;
+	margin: 10px auto;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+th {
+	padding: 4px;
+	height: 30px;
+}
+.nos {
+	background-color:#fff;
+}
+-->
+</style>
+</head>
+
+<body>
+<h1>XHTML 1.0 参考</h1>
+<p>译自<a href="http://www.w3schools.com/xhtml/xhtml_ref_byfunc.asp">http://www.w3schools.com/xhtml/xhtml_ref_byfunc.asp</a></p>
+<p>译者：拖鞋飞扬（catest）</p>
+<hr />
+<h2>按功能排列</h2>
+<ul>
+  <li><b>NN</b>: 表明哪个早期Netscape版本支持这个标签</li>
+  <li><b>IE</b>: 表明哪个早期Internet Explorer版本支持这个标签  </li>
+  <li><b>DTD</b>: 表明符合XHTML 1.0 DTD 何级别的定义  . S=Strict（严格）, T=Transitional（过渡）, and F=Frameset（框架） </li>
+</ul>
+<table class="ex" cellspacing="0" width="100%" border="1">
+  <tbody>
+    <tr>
+      <th align="left">开始标签</th>
+      <th align="left">用途（Purpose）</th>
+      <th align="left">NN</th>
+      <th align="left">IE</th>
+      <th align="left">DTD</th>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>基本标签</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;!DOCTYPE&gt;?</td>
+      <td>文档类型（Defines the document type）</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;html&gt;</td>
+      <td>html文档（Defines a html document）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;body&gt;</td>
+      <td>body元素（Defines the body element）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;h1&gt; to &lt;h6&gt;</td>
+      <td>标题1 -- 标题6（Defines header 1 to header 6）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;p&gt;</td>
+      <td>段落（Defines a paragraph）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;br /&gt;</td>
+      <td>换行（Inserts a single line break）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;hr /&gt;</td>
+      <td>水平线（Defines a horizontal rule）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;!--...--&gt;</td>
+      <td>注释（Defines a comment）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>Char Format</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;b&gt;</td>
+      <td>粗体文本（Defines bold text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;font&gt;</td>
+      <td>文字的外观，大小和颜色（Defines the font face, size, and color of text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&lt;i&gt;</td>
+      <td>文本为斜体（Defines italic text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;em&gt;</td>
+      <td>文本为重要（Defines emphasized text）?</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;big&gt;</td>
+      <td>文本增大（Defines big text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;strong&gt;</td>
+      <td>文本为非常重要（Defines strong text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;small&gt;</td>
+      <td>文本缩小（Defines small text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;sup&gt;</td>
+      <td>文本上标（Defines superscripted text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;sub&gt;</td>
+      <td>文本下标（Defines subscripted text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;bdo&gt;</td>
+      <td>？？？（Defines the direction of text display）</td>
+      <td>6.2</td>
+      <td>5.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;u&gt;</td>
+      <td>文本下划线（Defines underlined text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>输出</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;pre&gt;</td>
+      <td>预先格式（保留文件中空格的大小）（Defines preformatted text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;code&gt;</td>
+      <td>码（显示源码用）（Defines computer code text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;tt&gt;</td>
+      <td>打印机字体（Defines teletype text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;kbd&gt;</td>
+      <td>键盘（Defines keyboard text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;dfn&gt;</td>
+      <td>定义（Defines?a definition term）</td>
+      <td>?</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;var&gt;</td>
+      <td>变数（Defines a variable）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;samp&gt;</td>
+      <td>样本（Defines sample computer code）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;xmp&gt;</td>
+      <td><span class="red">不赞成使用，使用&lt;pre&gt;代替（Deprecated.</span> Defines preformatted text. Use &lt;pre&gt; instead）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>结构性定义</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;acronym&gt;</td>
+      <td>只取首字母的缩写词（Defines an acronym）</td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;abbr&gt;</td>
+      <td>缩写（Defines an abbreviation）</td>
+      <td>6.2</td>
+      <td>?</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;address&gt;</td>
+      <td>地址（Defines an address element）</td>
+      <td>4.0</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;blockquote&gt;</td>
+      <td>引文区块（Defines an long quotation）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;center&gt;</td>
+      <td>句中对齐（Defines centered text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&lt;q&gt;</td>
+      <td>引用短语（Defines a short quotation）</td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;cite&gt;</td>
+      <td>引文（Defines a citation）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;ins&gt;</td>
+      <td>插入（Defines inserted text）</td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;del&gt;</td>
+      <td>删除（Defines deleted text）</td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;s&gt;</td>
+      <td>删除线（Defines strikethrough text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&lt;strike&gt;</td>
+      <td>删除线（Defines strikethrough text）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>链接</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;a&gt;</td>
+      <td>链接（Defines an anchor）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;link&gt;</td>
+      <td>资源参考？？（Defines a resource reference） </td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>框架</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;frame&gt;</td>
+      <td>定义个别视框（Defines a sub window (a frame)）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>&lt;frameset&gt;</td>
+      <td>视框格式总定义（Defines a set of frames）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>&lt;noframes&gt;</td>
+      <td>无视框时的内容（Defines a noframe section）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&lt;iframe&gt;</td>
+      <td>定义嵌入视图（Defines an inline sub window (frame)）</td>
+      <td>6.0</td>
+      <td>4.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>输入</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;form&gt;</td>
+      <td>定义表单（Defines a form）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;input /&gt;</td>
+      <td>定义输入域（Defines an input field）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;textarea&gt;</td>
+      <td>输入区换行方式（Defines a text area）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;button&gt;</td>
+      <td>按钮（Defines a push button）</td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;select&gt;</td>
+      <td>下拉式选单（Defines a selectable list）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;optgroup&gt;</td>
+      <td>选项组（Defines an option group）</td>
+      <td>6.0</td>
+      <td>6.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;option&gt;</td>
+      <td>列表选项（Defines an item in a list box）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;label&gt;</td>
+      <td><p>标签（用于表单控制？）（Defines a label?for a form control）</p>
+      </td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;fieldset&gt;</td>
+      <td>域（Defines a fieldset）</td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;legend&gt;</td>
+      <td>域标题（Defines a title in a fieldset）</td>
+      <td>6.2</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;isindex&gt;</td>
+      <td><span class="red">不建议使用（可搜寻，使用input代替）（Deprecated.</span> Defines a single-line input field. Use &lt;input&gt; instead）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>列举</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;ul&gt;</td>
+      <td>无次序式列举（Defines an unordered list）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;ol&gt;</td>
+      <td>有次序式列举（Defines an ordered list）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;li&gt;</td>
+      <td>每条项目列表（Defines a list item）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;dir&gt;</td>
+      <td>目录式列举（Defines a directory list）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&lt;dl&gt;</td>
+      <td>定义式列举（Defines a definition list）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;dt&gt;</td>
+      <td>定义项目（Defines a definition term）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;dd&gt;</td>
+      <td>定义说明（Defines a definition description）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;menu&gt;</td>
+      <td>菜单列表（Defines a menu list）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>图片</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;img /&gt;</td>
+      <td>图片（Defines an image）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;map&gt;</td>
+      <td>图片地图（Defines an image map）?</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;area /&gt;</td>
+      <td>图片热点（Defines an area inside an image map）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>表格</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;table&gt;</td>
+      <td>表格（Defines a table）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;caption&gt;</td>
+      <td> 表格抬头（Defines a table caption）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;th&gt;</td>
+      <td>表格标题（Defines a table header）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;tr&gt;</td>
+      <td>行（Defines a table row）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;td&gt;</td>
+      <td>单元格（列）（Defines a table cell）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;thead&gt;</td>
+      <td>定义表格头（Defines a table header）</td>
+      <td>&nbsp;</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;tbody&gt;</td>
+      <td>定义表格主体（Defines a table body）</td>
+      <td>&nbsp;</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;tfoot&gt;</td>
+      <td>定义表格脚（Defines a table footer）</td>
+      <td>&nbsp;</td>
+      <td>4.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;col&gt;</td>
+      <td>定义特有特征（Defines attributes for table columns）?</td>
+      <td>&nbsp;</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;colgroup&gt;</td>
+      <td>定义特征集合（Defines groups of table columns）</td>
+      <td>&nbsp;</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>样式</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;style&gt;</td>
+      <td>样式定义（Defines a style definition）</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;div&gt;</td>
+      <td>在文档中定义一个区域（Defines a section in a document）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;span&gt;</td>
+      <td>在文档中定义一个区域（Defines a section in a document）</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>头信息</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;head&gt;</td>
+      <td>定语关于文档的信息（Defines information about the document）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;title&gt;</td>
+      <td>定义文档标题（Defines the document title）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;meta&gt;</td>
+      <td>定义背景资讯（Defines meta information）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;base /&gt;</td>
+      <td>基本文档中所有链接的基准（Defines a base URL for all the links in a page）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;basefont /&gt;</td>
+      <td>定义基本字体（Defines a base font）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><b>脚本、引用外部对象相关</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&lt;script&gt;</td>
+      <td>定义脚本（Defines a script）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;noscript&gt;</td>
+      <td>定义无脚本的显示区域（Defines a noscript section）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;applet&gt;</td>
+      <td>定义java程序（Defines an applet）</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>TF</td>
+    </tr>
+    <tr>
+      <td>&lt;object&gt;</td>
+      <td>定义内嵌对象（Defines an embedded object）</td>
+      <td>?</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+    <tr>
+      <td>&lt;param&gt;</td>
+      <td>定义对象的参数（Defines a parameter for an object）</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>STF</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

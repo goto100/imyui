@@ -1,0 +1,28 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
+<%
+Response.Buffer = true;
+Session.Timeout = 20;
+Session.CodePage = 65001;
+
+// Golbal //////////////////////////////
+var DEBUGMODE = true;
+var NAMESPACE = "ri:";
+var PATHDEPTH = 1;
+%>
+<!-- #include file = "functions.asp" -->
+<!-- #include file = "classes/dbconn.asp" -->
+<!-- #include file = "classes/form.asp" -->
+<!-- #include file = "classes/user.asp" -->
+<!-- #include file = "classes/htmlpage.asp" -->
+<%
+var search = getSearchs();
+var input = getInputs();
+
+var conn = new DBConn();
+conn.dbPath = Server.MapPath("/database/database.mdb");
+conn.open();
+
+var user = new User();
+
+var page = new HTMLPage();
+%>

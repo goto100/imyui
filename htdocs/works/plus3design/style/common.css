@@ -1,0 +1,303 @@
+/* CSS Document */
+
+body * {
+	margin:0;
+	padding:0;
+}
+img {
+	border:none;
+}
+a {
+	color:#f90;
+}
+a:hover {
+	color:#333;
+}
+.clear {
+	clear:both;
+}
+body {
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#666;
+}
+#Header {
+	height:258px;
+	background:url("images/Header.jpg") no-repeat left top;
+}
+#ContentWrapper {
+	background:url("images/ContentWrapper.jpg") repeat-y left center;
+}
+#Sidebar {
+	float:left;
+	width:245px;
+	min-height:300px;
+	height:300px;
+	padding-top:140px;
+	background:url("images/Sidebar.jpg") no-repeat left top;
+}
+#Content {
+	float:right;
+	width:600px;
+	min-height:490px;
+	height:auto;
+	padding:60px 55px 20px 100px;
+	background:url("images/Content.jpg") #fff no-repeat left top;
+}
+
+* html #Content { height:490px;}
+
+#Footer {
+	height:32px;
+	padding-top:5px;
+	text-align:center;
+	line-height:32px;
+	color:#999;
+	background:#000 url("images/Footer.jpg") repeat-x center bottom;
+}
+
+#logo {
+	float:left;
+}
+#welcome {
+	float:right;
+}
+#navbar {
+	float:right;
+	width:540px;
+	height:22px;
+	margin-top:30px;
+}
+#navbar li {
+	float:left;
+	list-style-type:none;
+	text-indent:-9999px;
+}
+#navbar a {
+	display:block;
+	margin-right:15px;
+	height:22px;
+	width:56px;
+	outline:none;
+	overflow:hidden;
+}
+#navbar-main a {
+	background:url("images/navbar-main.jpg") no-repeat left top;
+}
+#page-main #navbar-main a,
+#navbar-main a:hover {
+	background:url("images/navbar-main.jpg") no-repeat left -22px;
+}
+#navbar-about a {
+	background:url("images/navbar-about.jpg") no-repeat left top;
+}
+#page-about #navbar-about a,
+#navbar-about a:hover {
+	background:url("images/navbar-about.jpg") no-repeat left -22px;
+}
+#navbar-portfolio a {
+	background:url("images/navbar-portfolio.jpg") no-repeat left top;
+}
+#page-portfolio #navbar-portfolio a,
+#navbar-portfolio a:hover {
+	background:url("images/navbar-portfolio.jpg") no-repeat left -22px;
+}
+#navbar-download a {
+	background:url("images/navbar-download.jpg") no-repeat left top;
+}
+#page-download #navbar-download a,
+#navbar-download a:hover {
+	background:url("images/navbar-download.jpg") no-repeat left -22px;
+}
+#navbar-cilent a {
+	background:url("images/navbar-cilent.jpg") no-repeat left top;
+}
+#page-cilent #navbar-cilent a,
+#navbar-cilent a:hover {
+	background:url("images/navbar-cilent.jpg") no-repeat left -22px;
+}
+#navbar-service a {
+	background:url("images/navbar-service.jpg") no-repeat left top;
+}
+#page-service #navbar-service a,
+#navbar-service a:hover {
+	background:url("images/navbar-service.jpg") no-repeat left -22px;
+}
+#navbar-contact a {
+	background:url("images/navbar-contact.jpg") no-repeat left top;
+}
+#page-contact #navbar-contact a,
+#navbar-contact a:hover {
+	background:url("images/navbar-contact.jpg") no-repeat left -22px;
+}
+
+#navbar2 {
+	float:right;
+	width:540px;
+	height:20px;
+	margin-top:5px;
+}
+#navbar2 li {
+	float:left;
+	width:128px;
+	height:20px;
+	list-style-type:none;
+	text-indent:-9999px;
+}
+#navbar2 a {
+	display:block;
+	width:128px;
+	height:20px;
+	outline:none;
+	overflow:hidden;
+}
+#navbar2-1 {
+	background:url("images/navbar2-1.jpg") no-repeat left top;
+}
+#navbar2-2 {
+	background:url("images/navbar2-2.jpg") no-repeat left top;
+}
+#navbar2-3 {
+	background:url("images/navbar2-3.jpg") no-repeat left top;
+}
+#navbar2-4 {
+	background:url("images/navbar2-4.jpg") no-repeat left top;
+}
+#navbar2-1 a {
+	background:url("images/navbar2-1.jpg") no-repeat left -48px;
+}
+#navbar2-2 a {
+	background:url("images/navbar2-2.jpg") no-repeat left -48px;
+}
+#navbar2-3 a {
+	background:url("images/navbar2-3.jpg") no-repeat left -48px;
+}
+#navbar2-4 a {
+	background:url("images/navbar2-4.jpg") no-repeat left -48px;
+}
+#navbar2-1 a:hover {
+	background:url("images/navbar2-1.jpg") no-repeat left -24px;
+}
+#navbar2-2 a:hover {
+	background:url("images/navbar2-2.jpg") no-repeat left -24px;
+}
+#navbar2-3 a:hover {
+	background:url("images/navbar2-3.jpg") no-repeat left -24px;
+}
+#navbar2-4 a:hover {
+	background:url("images/navbar2-4.jpg") no-repeat left -24px;
+}
+
+
+#news {
+	height:200px;
+}
+#links {
+	height:100px;
+	margin-left:20px;
+}
+#links li {
+	float:left;
+	list-style-type:none;
+	text-indent:-9999px;
+}
+#links a {
+	display:block;
+	width:148px;
+	height:36px;
+	outline:none;
+	overflow:hidden;
+}
+#links-portfolio a {
+	background:url("images/links-portfolio.jpg") no-repeat left top;
+}
+#links-portfolio a:hover {
+	background:url("images/links-portfolio.jpg") no-repeat left -36px;
+}
+#links-download a {
+	background:url("images/links-download.jpg") no-repeat left top;
+}
+#links-download a:hover {
+	background:url("images/links-download.jpg") no-repeat left -36px;
+}
+#links-tutorial a {
+	background:url("images/links-tutorial.jpg") no-repeat left top;
+}
+#links-tutorial a:hover {
+	background:url("images/links-tutorial.jpg") no-repeat left -36px;
+}
+#links-contact a {
+	background:url("images/links-contact.jpg") no-repeat left top;
+}
+#links-contact a:hover {
+	background:url("images/links-contact.jpg") no-repeat left -36px;
+}
+
+
+#Content h2 {
+	margin:10px 0;
+	font-size:14pt;
+	text-align:right;
+}
+#Content h2 em {
+	font-style:normal;
+	color:#f90;
+}
+#Content h3 em {
+	font-style:normal;
+	font-size:9pt;
+	color:#f90;
+}
+#Content table {
+	width:100%;
+}
+#Content object {
+	clear:both;
+}
+#Content p {
+	font-size:10.5pt;
+	line-height:1.5em;
+}
+#Content p img {
+	vertical-align:middle;
+}
+
+.list {
+	list-style-type:none;
+}
+.list a {
+	display:block;
+	width:180px;
+	padding:5px;
+	height:36px;
+}
+.list a:hover {
+	background:url("images/.list.hover.gif") no-repeat top left;
+}
+
+#items th {
+	padding:2px 10px;
+	color:#fff;
+	text-align:left;
+	background-color:#fc3;
+	border-collapse:collapse;
+}
+
+#news {
+	list-style-position:inside;
+	margin-left:5px;
+	width:180px;
+}
+#news a:hover {
+	color:#fff;
+}
+#news li {
+	line-height:1.5em;
+	color:#fff;
+}
+#news .more {
+	text-align:right;
+}

@@ -1,0 +1,180 @@
+html {
+	height:100%;
+}
+body {
+	margin:auto;
+	padding:0;
+	height:100%;
+	background-color:#C3E6FF;
+}
+body * {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+}
+#Wrapper {
+	padding:5px 0;
+	background:url(images/Wrapper.gif) repeat-x bottom left;
+}
+#InnerWrapper {
+	padding-bottom:30px;
+	background:url(images/InnerWrapper.png) no-repeat bottom center;
+}
+#InnerWrapper2 {
+	width:770px;
+	margin:auto;
+	padding:0 5px;
+	background:url(images/InnerWrapper2.png) repeat-y bottom center;
+}
+#Header {
+	width:770px;
+	height:31px;
+	padding-top:100px;
+	background:url(images/Header.jpg) no-repeat top center;
+}
+#Navbar {
+	border-top:1px solid #006; /* Hack for IE */
+}
+#Navbar li {
+	display:inline;
+	float:left;
+	line-height:31px;
+}
+#Navbar a {
+	display:block;
+	width:73px;
+	text-indent:-9999px;
+}
+#Navbar_news a {
+	width:82px;
+	background:url(images/Navbar_news.gif) no-repeat center top;
+}
+#Navbar_news a:hover, #Navbar_news a.active {
+	background:url(images/Navbar_news.gif) no-repeat center -31px;
+}
+#Navbar_aboutus a {
+	background:url(images/Navbar_aboutus.gif) no-repeat center top;
+}
+#Navbar_aboutus a:hover, #Navbar_aboutus a.active {
+	background:url(images/Navbar_aboutus.gif) no-repeat center -31px;
+}
+#Navbar_products a {
+	background:url(images/Navbar_products.gif) no-repeat center top;
+}
+#Navbar_products a:hover, #Navbar_products a.active {
+	background:url(images/Navbar_products.gif) no-repeat center -31px;
+}
+#Navbar_service a {
+	background:url(images/Navbar_service.gif) no-repeat center top;
+}
+#Navbar_service a:hover, #Navbar_service a.active {
+	background:url(images/Navbar_service.gif) no-repeat center -31px;
+}
+#Navbar_examples a {
+	background:url(images/Navbar_examples.gif) no-repeat center top;
+}
+#Navbar_examples a:hover, #Navbar_examples a.active {
+	background:url(images/Navbar_examples.gif) no-repeat center -31px;
+}
+#Navbar_indelibility a {
+	width:106px;
+	background:url(images/Navbar_indelibility.gif) no-repeat center top;
+}
+#Navbar_indelibility a:hover, #Navbar_indelibility a.active {
+	background:url(images/Navbar_indelibility.gif) no-repeat center -31px;
+}
+#Navbar_contactus a {
+	background:url(images/Navbar_contactus.gif) no-repeat center top;
+}
+#Navbar_contactus a:hover, #Navbar_contactus a.active {
+	background:url(images/Navbar_contactus.gif) no-repeat center -31px;
+}
+#Navbar_invite a {
+	background:url(images/Navbar_invite.gif) no-repeat center top;
+}
+#Navbar_invite a:hover, #Navbar_invite a.active {
+	background:url(images/Navbar_invite.gif) no-repeat center -31px;
+}
+#Navbar_email a {
+	width:144px;
+	background:url(images/Navbar_email.gif) no-repeat right top;
+}
+#Navbar_email a:hover {
+	background:url(images/Navbar_email.gif) no-repeat right -31px;
+}
+
+#Content {
+	min-height:500px;
+	height:inherit!important;
+	height:500px;
+	padding:0 10px 100px 215px;
+	background:url(images/Content.jpg) #fff no-repeat left top;
+	line-height:1.5em;
+	text-align:center;
+	color:#666;
+}
+#Content h1 {
+	padding:10px 0;
+}
+#Content h2 {
+	margin:5px;
+	font-size:13pt;
+	color:#06c;
+}
+#Content h3 {
+	font-size:12pt;
+	color:#06c;
+}
+#Content p {
+	margin:10px;
+	text-indent:2em;
+	text-align:left;
+}
+#Content li {
+	margin-left:2em;
+	text-align:left;
+}
+#Content table {
+	width:100%;
+	border-collapse:collapse;
+	border-top:1px solid #666;
+	border-right:1px solid #666;
+	font-size:10.5pt;
+}
+#Content thead {
+	background-color:#70AAE4;
+	color:#fff;
+}
+#Content tr {
+	border-left:1px solid #666;
+	border-bottom:1px solid #666;
+}
+#Content td, #Content th {
+	padding:2px;
+	border-left:1px solid #666;
+	border-bottom:1px solid #666;
+}
+#Content a {
+	color:#1A85DD;
+}
+#Content a:hover {
+	text-decoration:none;
+}
+#Content form input.submit {
+	float:right;
+	padding:10px 20px;
+}
+
+#Footer {
+	display:inline;
+	float:right;
+	margin:-80px 80px 0 0;
+	font-size:12px;
+	text-align:center;
+	color:#999;
+}
+#Footer p.Copy {
+	color:#09f;
+}

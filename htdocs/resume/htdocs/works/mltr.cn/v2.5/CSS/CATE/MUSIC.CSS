@@ -1,0 +1,21 @@
+table#listen th#no{width:5%;}
+table#listen th#select{width:5%;}
+table#listen th#name{width:42%;}
+table#listen th#album{width:28%;}
+table#listen th#count{width:8%;}
+table#listen th#play{width:12%;}
+table#listen td.name{text-align:left;}
+table#listen td.album{text-align:left;}
+table#listen td.play img{cursor:hand;}
+
+table#lyric th#no{width:5%;}
+table#lyric th#name{width:47%;}
+table#lyric th#album{width:28%;}
+table#lyric th#count{width:8%;}
+table#lyric th#see{width:12%;}
+table#lyric td.name{text-align:left;}
+table#lyric td.album{text-align:left;}
+
+form#musicform input#musicauthor{width:100%;}
+form#musicform textarea#musiclyric{width:100%;height:500px;}
+form#musicform input#musiccopy{width:100%;}

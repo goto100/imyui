@@ -1,0 +1,8 @@
+table#download th#no{width:5%;}
+table#download th#name{width:35%;}
+table#download th#from{width:25%;}
+table#download th#date{width:15%;}
+table#download th#count{width:8%;}
+table#download th#download{width:12%;}
+table#download td.name{text-align:left;}
+table#download td.from{text-align:left;}

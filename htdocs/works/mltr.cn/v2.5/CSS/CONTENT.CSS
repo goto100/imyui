@@ -1,0 +1,110 @@
+#bodier {
+	float:left;
+	background-color:#fff;
+	padding:5px 10px;
+	z-index:1;
+	clear:left;
+	width:580px;
+	margin-bottom:inherit!important;
+	margin-bottom:-5px;/*For IE Bug*/
+voice-family: "\"}\""; 
+voice-family: inherit;
+	width:560px;
+}
+#bodier h2 {
+	font-size:16px;
+	text-align:left;
+	line-height:30px;
+	color:#fff;
+	background: url("images/content_h2.gif") no-repeat center center #f90;
+	clear:both;
+	margin-bottom:5px;
+	padding-left:35px;
+width:560px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+	width:525px;
+}
+#bodier h2 a.gotop {
+	float:right;
+	font-weight:normal;
+	font-size:12px;
+	margin:-25px 5px 0 0;
+}
+#sidebar {
+	width:165px;
+	float:right;
+}
+#sidebar h2 {
+	display:none;
+}
+#sidebar ul {
+	margin:0; /*For IE5*/
+}
+div.catelist ul {
+	z-index:2;
+	list-style-type:none;
+	background: url("images/content_catecorner.gif") no-repeat left bottom #f90;
+	padding:10px 0 20px 0;
+}
+div.catelist li {
+	line-height:40px;
+}
+div.catelist li a:link, div.catelist li a:visited {
+	width:100%;
+	display:block;
+	text-decoration:none;
+	font-weight:bolder;
+	color:#fff;
+	font-size:18px;
+}
+div.catelist ul li.active a:link,
+div.catelist ul li.active a:visited {
+	position:relative;
+	color:#f90;
+	background-color:#fff;
+	border-top:5px solid #ddd;
+	border-bottom:5px solid #ddd;
+margin-left:-10px;
+width:175px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+	width:165px;
+	margin-left:-5px;
+	padding-right:5px;
+}
+div.panel {
+	background: url("images/content_panel.gif") no-repeat bottom center #fff;
+	margin-top:10px;
+	padding-bottom:16px;
+	clear:right;
+}
+div.panel h3 {
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+	line-height:16px;
+	background: url("images/content_panelh.gif") no-repeat top center;
+	padding-left:15px;
+}
+div.panel a:link, div.panel a:visited {
+	width:100%;
+	display:block;
+	text-decoration:none;
+}
+div.panel a:hover {
+	background-color:#f90;
+	color:#fff;
+}
+div.panel ul {
+	list-style-type:none;
+}
+div.panel li, div.panel p{
+	line-height:25px;
+}
+div.panel .c1 {
+	background-color:#eee;
+}
+div.panel .c2 {
+	background-color:#fff;
+}

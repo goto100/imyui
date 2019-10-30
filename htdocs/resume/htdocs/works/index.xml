@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+
+<works>
+	<item>
+		<period>
+			<from>
+				<date>
+					<month>1</month>
+					<year>2006</year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month>12</month>
+					<year>2006</year>
+				</date>
+			</to>
+		</period>
+		<name>ASP MVC框架</name>
+		<picture src="images/asp-mvc.png" />
+		<description>
+			<p>一个使用JavaScript写的asp MVC框架（点击链接可查看相关代码）。</p>
+			<h3>前端</h3>
+			<p>通过XSL转换XML生成前端页面。页面使用XHTML+CSS实现。</p>
+			<h3>后端</h3>
+			<ul>
+				<li>模型层：
+					<ol>
+						<li>数据库相关封装类<a href="asp-mvc/DBAccess.asp.txt">DBAccess类</a>、<a href="asp-mvc/Record.asp.txt">Record类</a>；</li>
+						<li>无级分类<a href="asp-mvc/Category.asp.txt">Category类</a>；</li>
+					</ol>
+				</li>
+				<li>表示层：
+					<ol>
+						<li>通过XML Dom生成XML文件的<a href="asp-mvc/View.asp.txt">View类</a>；</li>
+						<li>继承于View类的FormView类、ListView类等；</li>
+					</ol>
+				</li>
+				<li>控制层：
+					<ol>
+						<li>封装Request对象的<a href="asp-mvc/HttpRequest.asp.txt">HttpRequest类</a>（包含上传功能）；</li>
+						<li>总控制器<a href="asp-mvc/Controller.asp.txt">Controller类</a>；</li>
+						<li>基本响应<a href="asp-mvc/Action.asp.txt">Action类</a>；</li>
+						<li>继承于Action类的<a href="asp-mvc/FormAction.asp.txt">FormAction类</a>、<a href="asp-mvc/SubmitAction.asp.txt">SubmitAction类</a>、<a href="asp-mvc/ListAction.asp.txt">ListAction类</a>。</li>
+					</ol>
+				</li>
+			</ul>
+		</description>
+	</item>
+	<item>
+		<name>MLTR 中文站</name>
+		<picture src="images/mltr-cn.png" />
+		<screen-shot src="images/mltr-cn_1.png" />
+		<screen-shot src="images/mltr-cn_2.png" />
+		<screen-shot src="images/mltr-cn_3.png" />
+		<screen-shot src="images/mltr-cn_4.png" />
+		<url>http://www.imyui.cn/works/mltr.cn/v3.0/</url>
+		<period>
+			<from>
+				<date>
+					<month>5</month>
+					<year>2004</year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month>4</month>
+					<year>2007</year>
+				</date>
+			</to>
+		</period>
+		<description>
+			<p>MLTR(Michael Learns To Rock)，麦克学摇滚，是来自丹麦的一只乐队，出于对他们的喜爱，且当时国内并没有一个够好的歌迷网站，于是产生了制作个网站的想法。</p>
+			<p>MLTR 中文站是我学习 Web 开发的动力。这三年中我从对网页设计完全不懂成长为可独立制作网站，每一步都伴随着 MLTR 中文站。对它的每一次更新，每一次升级，都能让我学到更多东西，并促使我将学到的新东西应用到其中去，不断进步。</p>
+			<p>网站由一位热心 MLTR 歌迷和我共同完成，我们分别在武汉和天津，MLTR 将我们联系在了一起，他负责美工，我负责制作，一起维护更新，并共同合作完成了多个成功的网站项目。在这期间我不仅学习到了 Web 开发方面的知识和技能，更锻炼了如何与人沟通合作，应对各种问题的能力。</p>
+			<p>3 年中网站经历了多次改版：</p>
+			<ul>
+				<li>2004年5月 1.0：简陋，全静态，表格布局；</li>
+				<li>2004年8月 1.1：遵循 Web 标准重新制作了页面，减少网页大小，是国内最早用 XHTML+CSS 改版的网站之一；</li>
+				<li>2004年12月 2.0：基于 ASP 动态网页技术 + Access 数据库，使用 VBScript 语言开发的新版网站；</li>
+				<li>2005年3月 2.5：重新设计页面风格，并加入了难度较大的购物功能；</li>
+				<li>2005年12月 3.0：使用 JavaScript 语言重新开发后台程序，程序更加模块化。</li>
+			</ul>
+			<p>责任描述：网站前台后台制作，服务器维护，网站内容更新。</p>
+		</description>
+	</item>
+	<item>
+		<name>北京帕美智软件开发有限公司网站</name>
+		<picture src="images/panimaging.png" />
+		<screen-shot src="images/panimaging_1.png" />
+		<url>http://www.imyui.cn/works/panimaging/</url>
+		<description>
+			<p>前台：</p>
+			<ul>
+				<li>遵循 Web 标准 XHTML+CSS 制作；</li>
+				<li>兼容各种浏览器；</li>
+				<li>CSS 导航菜单（CSS Sprite）。</li>
+			</ul>
+			<p>后台：</p>
+			<ul>
+				<li>基于 ASP（JavaScript）；</li>
+				<li>新闻发布系统；</li>
+			</ul>
+			<p>责任描述：此项目由两人完成，我负责除美工之外的所有工作。</p>
+		</description>
+		<period>
+			<from>
+				<date>
+					<month>12</month>
+					<year>2005</year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month>12</month>
+					<year>2005</year>
+				</date>
+			</to>
+		</period>
+	</item>
+	<item>
+		<period>
+			<from>
+				<date>
+					<month>3</month>
+					<year>2006</year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month>4</month>
+					<year>2006</year>
+				</date>
+			</to>
+		</period>
+		<name>Richter International 公司网站</name>
+		<picture src="images/richter-international.png" />
+		<screen-shot src="images/richter-international_1.png" />
+		<screen-shot src="images/richter-international_2.png" />
+		<screen-shot src="images/richter-international_3.png" />
+		<url>http://www.imyui.cn/works/richter-international/</url>
+		<description>
+			<p>Richter International 是位于上海的一个贸易公司，主要经营面向美、德等国家，因此需要制作一个多语言版本的网站。用以向外部发布信息，所以需要一个后台用于发布新闻。</p>
+			<p>前台：</p>
+			<ul>
+				<li>遵循 Web 标准 XHTML+CSS 制作；</li>
+				<li>兼容各种浏览器；</li>
+				<li>CSS 导航菜单（CSS Sprite）；</li>
+			</ul>
+			<p>后台：</p>
+			<ul>
+				<li>英、德两种语言；</li>
+				<li>基于 ASP（JavaScript）；</li>
+				<li>管理与新闻发布系统；</li>
+			</ul>
+			<p>此项目由两人完成，我负责除美工之外的所有工作。</p>
+		</description>
+	</item>
+	<item>
+		<period>
+			<from>
+				<date>
+					<month>7</month>
+					<year>2006</year>
+				</date>
+			</from>
+			<to>
+				<date>
+					<month>9</month>
+					<year>2006</year>
+				</date>
+			</to>
+		</period>
+		<name>天津三合中广动漫设计有限公司网站</name>
+		<picture src="images/plus3design.png" />
+		<screen-shot src="images/plus3design_1.png" />
+		<screen-shot src="images/plus3design_2.png" />
+		<screen-shot src="images/plus3design_3.png" />
+		<url>http://www.imyui.cn/works/plus3design/</url>
+		<description>
+			<p>在此公司实习期间为公司制作的公司展示网站，不仅学习到了知识，更感受到了在工作中合作的重要性。</p>
+			<p>前台：</p>
+			<ul>
+				<li>遵循 Web 标准 XHTML+CSS 制作；</li>
+				<li>兼容各种浏览器；</li>
+				<li>CSS 导航菜单（CSS Sprite）。</li>
+			</ul>
+			<p>后台：</p>
+			<ul>
+				<li>基于 ASP（JavaScript）；</li>
+				<li>新闻发布系统；</li>
+				<li>作品发布系统；</li>
+				<li>下载系统；</li>
+				<li>使用 JMail 发送邮件。</li>
+			</ul>
+			<p>责任描述：此项目由三人完成，我负责除美工之外的所有工作。</p>
+		</description>
+	</item>
+</works>
+

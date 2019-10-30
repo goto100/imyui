@@ -1,0 +1,56 @@
+#bodier {
+	padding:5px 10px;
+}
+#bodier h2 {
+	text-align:left;
+	border-bottom:3px solid #f90;
+	margin:5px;
+}
+#bodier h3 {
+	text-align:left;
+	border-bottom:1px solid #f90;
+	margin:3px;
+}
+#bodier h4 {
+	text-align:left;
+	border-bottom:1px solid #f90;
+	margin:3px 10px;
+}
+#bodier h3.important {
+	text-align:left;
+	color:#fff;
+	background:url("images/content_iheadline.gif") no-repeat 5px center #f90;
+	padding:5px 5px 5px 25px;
+	margin:0 -5px 5px -5px;
+}
+div.alert {
+	background-color:#fff;
+	margin-top:5px;
+	padding:10px;
+}
+div.alert h2 {
+	background-color:#444;
+	color:#fff;
+	padding:5px;
+}
+div.alert p {
+	padding:20px;
+	border-left:1px solid #444;
+	border-right:1px solid #444;
+}
+div.alert p.botton {
+	padding:5px;
+	border:1px solid #444;
+}
+
+
+body#link div#ourlink ul li {
+	display:inline;
+	margin:1px;
+}
+div.plugin_login #bodier table.form col.name {
+	width:40%;
+}
+div.plugin_login #bodier table.form col.content {
+	width:60%;
+}

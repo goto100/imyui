@@ -1,0 +1,59 @@
+body#cateroot_shop #bodier {
+	padding:10px;
+}
+h1 {
+	display:none;
+}
+#bodier ul, #bodier li, #bodier ol, #bodier dl {
+	margin:0;
+	text-indent:0;
+	list-style-position:outside;
+}
+#bodier div.index {
+	float:left;
+	padding:20px 0;
+	width:460px;
+	height:520px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+	width:460px;
+	height:480px;
+}
+
+div.catelist ul {
+	float:right;
+	list-style-type:none;
+	list-style-position:outside;
+	background-color:#f7ebce;
+	width:290px;
+	height:520px;
+	padding:10px 5px 10px 5px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+	width:280px;
+	height:500px;
+}
+div.catelist li {
+	display:inline;/*For IE5*/
+voice-family: "\"}\""; 
+voice-family: inherit;
+	display:block;
+}
+
+#bodier div.index img {
+	padding:30px;
+}
+
+body#cateroot_news #bodier div.index {background-color:#84814a;}
+body#cateroot_info #bodier div.index {background-color:#bdbe70;}
+body#cateroot_album #bodier div.index {background-color:#adcfce;}
+body#cateroot_photo #bodier div.index {background-color:#7b7663;}
+body#cateroot_music #bodier div.index {background-color:#b56d00;}
+body#cateroot_download #bodier div.index {background-color:#b54918;}
+
+body#cateroot_news #bodier div.index img {background:url("images/index_bd1.gif") no-repeat;}
+body#cateroot_info #bodier div.index img {background:url("images/index_bd2.gif") no-repeat;}
+body#cateroot_album #bodier div.index img {background:url("images/index_bd3.gif") no-repeat;}
+body#cateroot_photo #bodier div.index img {background:url("images/index_bd4.gif") no-repeat;}
+body#cateroot_music #bodier div.index img {background:url("images/index_bd5.gif") no-repeat;}
+body#cateroot_download #bodier div.index img {background:url("images/index_bd6.gif") no-repeat;}
